@@ -1,4 +1,5 @@
 import style from './navBar.module.css';
+import { Link, link } from "react-router-dom";
 
 const NavBar = () => (
 
@@ -12,12 +13,6 @@ const NavBar = () => (
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <div class="nav-item  mx-4">
                         <Link to='/home' class="nav-link" aria-current="page" href="#">Home</Link>
-                    </div>
-                    <div class="nav-item mx-4">
-                        <Link to='/other' class="nav-link" href="#">Other</Link>
-                    </div>
-                    <div class="nav-item mx-4">
-                        <Link to='/contact' class="nav-link" href="#">Contact</Link>
                     </div>
                 </ul>
             </div>
