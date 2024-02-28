@@ -1,0 +1,17 @@
+:root
+{
+    --noir : #08091b;
+    --bleu : #6486ac;
+    --gris : #c0bfc4;
+    --beige : #eedfc2;
+}
+
+nav
+{
+    background-color: var(--noir);
+}
+
+.nav-link
+{
+    color: var(--beige);
+}
