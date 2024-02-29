@@ -11,6 +11,7 @@ const skills = [
     'Approche digitalisée'
 ]
 
+
 function Title ({color, fontSize}) {
     return <h1 style = {
                 {
@@ -38,7 +39,7 @@ const HomePage = () => {
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <motion.p class="p-4 mx-5" initial={{opacity: 0, x: 200}} animate={{opacity: 1, x: 0}}>
+                        <motion.p class="p-4 mx-5" initial={{x: 0, opacity: 0}} animate={{x: 100, opacity: 1}}>
                             {skills.map(skill => (<li key={skill}> {skill} </li>))}
                         </motion.p>
                     </div>

@@ -1,5 +1,6 @@
 import style from './navBar.module.css';
 import { Link, link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const NavBar = () => (
 
@@ -11,15 +12,15 @@ const NavBar = () => (
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <div class="nav-item  mx-4">
+                    <motion.div class="nav-item  mx-4" whileTap={{scale: 1.2}}>
                         <Link to='/home' class="nav-link" aria-current="page" href="#">Home</Link>
-                    </div>
-                    <div class="nav-item  mx-4">
+                    </motion.div>
+                    <motion.div class="nav-item  mx-4" whileTap={{scale: 1.2}}>
                         <Link to='/skills' class="nav-link" aria-current="page" href="#">Skills</Link>
-                    </div>
-                    <div class="nav-item  mx-4">
+                    </motion.div>
+                    <motion.div class="nav-item  mx-4" whileTap={{scale: 1.2}}>
                         <Link to='/contact' class="nav-link" aria-current="page" href="#">Contact</Link>
-                    </div>
+                    </motion.div>
                 </ul>
             </div>
         </div>
