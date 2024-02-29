@@ -1,6 +1,7 @@
 import style from './homePage.module.css';
 import NavBar from '../../components/NavBar/NavBar';
 import { Fragment } from 'react'; 
+import { motion } from "framer-motion";
 
 const title = "Pulsar";
 const title2 = "WEB";
@@ -33,19 +34,22 @@ function Title2 ({color, fontSize}) {
 const HomePage = () => {
 
     return (
-        <div class="container">
-            <div class="row">
+        <section>
+            <div class="container">
+                <div class="row">
                     <div class="col-md-6">
-                        <p class="p-4 mx-5">
+                        <motion.p class="p-4 mx-5" initial={{opacity: 0, x: 200}} animate={{opacity: 1, x: 0}}>
                             {skills.map(skill => (<li key={skill}> {skill} </li>))}
-                        </p>
+                        </motion.p>
                     </div>
                     <div class="col-md-6">
                         <Title color="#6486ac" fontSize="16em" />
                         <Title2 color="#6486ac" fontSize="10em"/>
                     </div>
-             </div>
-        </div>
+                </div>
+            </div>
+        </section>
+            
     )
 }
 

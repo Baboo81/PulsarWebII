@@ -1,0 +1,19 @@
+:root
+{
+    --noir : #08091b;
+    --bleu : #6486ac;
+    --gris : #c0bfc4;
+    --beige : #eedfc2;
+}
+
+section
+{
+    background-color: var(--noir);
+    height: 1200px;
+}
+
+p
+{
+    color: var(--bleu);
+    font-size: 2em;
+}

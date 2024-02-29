@@ -9,9 +9,8 @@
 nav
 {
     background-color: var(--bleu);
+    font-size: 2em;
+    font-weight: bold;
 }
 
-.nav-link
-{
-    color: var(--beige);
-}
+
