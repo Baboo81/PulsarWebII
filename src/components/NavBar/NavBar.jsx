@@ -14,6 +14,12 @@ const NavBar = () => (
                     <div class="nav-item  mx-4">
                         <Link to='/home' class="nav-link" aria-current="page" href="#">Home</Link>
                     </div>
+                    <div class="nav-item  mx-4">
+                        <Link to='/home' class="nav-link" aria-current="page" href="#">Skills</Link>
+                    </div>
+                    <div class="nav-item  mx-4">
+                        <Link to='/home' class="nav-link" aria-current="page" href="#">Contact</Link>
+                    </div>
                 </ul>
             </div>
         </div>

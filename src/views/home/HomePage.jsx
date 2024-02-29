@@ -23,8 +23,8 @@ function Title ({color, fontSize}) {
 function Title2 ({color, fontSize}) {
     return <h1 style = {
                 {
-                        color : color,
-                        fontSize : fontSize
+                    color : color,
+                    fontSize : fontSize
                 }
                        }> {title2}
             </h1>
