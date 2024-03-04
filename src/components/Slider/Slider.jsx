@@ -2,6 +2,7 @@ import style from './slider.module.css';
 import { motion } from "framer-motion";
 import CarouselSlider from 'react-carousel-slider';
 
+
 let data = [
   {
     desc: "1",

@@ -16,7 +16,7 @@ const NavBar = () => (
                         <Link to='/home' class="nav-link" aria-current="page" href="#">Home</Link>
                     </motion.div>
                     <motion.div class="nav-item  mx-4" whileTap={{scale: 1.2}}>
-                        <Link to='/skills' class="nav-link" aria-current="page" href="#">Skills</Link>
+                        <Link to='/skills' class="nav-link" aria-current="page" href="#">Hobbies</Link>
                     </motion.div>
                     <motion.div class="nav-item  mx-4" whileTap={{scale: 1.2}}>
                         <Link to='/contact' class="nav-link" aria-current="page" href="#">Contact</Link>
