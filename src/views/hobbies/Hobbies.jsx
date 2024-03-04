@@ -2,7 +2,7 @@ import style from './hobbies.module.css';
 import { motion } from "framer-motion";
 import Slider from '../../components/Slider/Slider';
 
-const hobbiesTitle = "My hobbies";
+
 
 const Hobbies = () => { 
     return (
