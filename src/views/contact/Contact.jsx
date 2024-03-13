@@ -5,7 +5,13 @@ import { motion } from "framer-motion";
 const Contact = () => { 
     return (
         <section>
-            <Btn />
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                      <p></p>
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }
