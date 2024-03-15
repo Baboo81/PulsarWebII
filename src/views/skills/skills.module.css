@@ -15,20 +15,20 @@ article
 
 .art1
 {
-    
+    background: url(/public/img/coder.png) center center no-repeat;
 }
 
 .art2
 {
-
+    background: url(/public/img/web.jpg);
 }
 
 .art3
 {
-
+    background: url(/public/img/seo.jpg);
 }
 
 .art4
 {
-
+    background: url(/public/img/cyber.png);
 }
