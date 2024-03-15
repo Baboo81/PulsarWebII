@@ -3,7 +3,7 @@ import NavBar from '../../components/NavBar/NavBar';
 import { Fragment } from 'react';
 import { motion } from "framer-motion";
 
-const skillsTitle = "My Skills";
+const skillsTitle = "Skills";
 
 function Title ({color, fontSize, fontFamily}) {
     return <h1 style = {
@@ -25,7 +25,7 @@ const Skills = () => {
                 <div className="row">
                     <div className="col-md-12 p-4">
                         <Title color="#6486ac" fontSize="5em" fontFamily="Nanum Myeongjo" />
-                        <article>
+                        <article className={style.art1}>
 
                         </article>
                     </div>
