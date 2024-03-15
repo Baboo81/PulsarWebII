@@ -16,13 +16,30 @@ function Title ({color, fontSize, fontFamily}) {
             </h1>
 }
 
+
+
 const Skills = () => {
     return (
         <section>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-md-12 p-4">
                         <Title color="#6486ac" fontSize="5em" fontFamily="Nanum Myeongjo" />
+                        <article>
+
+                        </article>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-6">
+                        <article>
+
+                        </article>
+                    </div>
+                    <div className="col-md-6">
+                        <article>
+                            
+                        </article>
                     </div>
                 </div>
             </div>
