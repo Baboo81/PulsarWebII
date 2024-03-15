@@ -38,7 +38,14 @@ const Skills = () => {
                     </div>
                     <div className="col-md-6">
                         <article>
-                            
+
+                        </article>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-12 p-4">
+                        <article>
+
                         </article>
                     </div>
                 </div>

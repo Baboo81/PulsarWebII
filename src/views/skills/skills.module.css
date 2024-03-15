@@ -1,6 +1,14 @@
+:root
+{
+    --noir : #08091b;
+    --bleu : #6486ac;
+    --gris : #c0bfc4;
+    --beige : #eedfc2;
+}
+
 article
 {
     height: 300px;
     width: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--bleu);
 }
