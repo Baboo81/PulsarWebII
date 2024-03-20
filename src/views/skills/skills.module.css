@@ -32,3 +32,10 @@ article
 {
     background: url(/public/img/cyber.png);
 }
+
+.picto
+{
+    height: 300px;
+    width: 300px;
+    z-index: 100;
+}

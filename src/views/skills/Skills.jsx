@@ -26,7 +26,12 @@ const Skills = () => {
                     <div className="col-md-12 p-4">
                         <Title color="#6486ac" fontSize="5em" fontFamily="Nanum Myeongjo" />
                         <article className={style.art1}>
-
+                            <h1>Hello</h1>
+                            <div>
+                                <img className={style.picto} src="../../public/svg/skills/html5.svg" alt="HTML" />
+                                <img className={style.picto} src="../../public/svg/skills/css3.svg" alt="CSS3" />
+                                <img className={style.picto} src="../../public/svg/skills/javascript.svg" alt="JS" />
+                            </div>
                         </article>
                     </div>
                 </div>
