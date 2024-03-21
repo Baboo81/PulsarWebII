@@ -8,7 +8,9 @@ const Contact = () => { 
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                      <h1></h1>
+                        <article>
+                            
+                        </article>
                     </div>
                 </div>
             </div>
