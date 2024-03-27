@@ -8,7 +8,8 @@ const Contact = () => { 
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 p-5">
-                        <article className="p-3">
+                        <article className="p-3fractals
+                        ">
                             <h1>Adresse</h1>
                             <p>Rue champ rodange 14, 1410 Waterloo</p>
                         </article>
