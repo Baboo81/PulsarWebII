@@ -16,6 +16,9 @@ nav
     font-family: "Nanum Myeongjo", serif;
 }
 
-
+ul
+{
+    color: var(--bleu);
+}
 
 
