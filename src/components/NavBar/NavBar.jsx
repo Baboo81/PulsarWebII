@@ -13,16 +13,16 @@ const NavBar = () => (
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <motion.div class="nav-item  mx-4" whileTap={{scale: 1.2}}>
-                        <Link to='/home' class="nav-link" aria-current="page" href="#">Home</Link>
+                        <Link to='/home' class=" {style.links}" aria-current="page" href="#">Home</Link>
                     </motion.div>
                     <motion.div class="nav-item  mx-4" whileTap={{scale: 1.2}}>
-                        <Link to='/skills' class="nav-link" aria-current="page" href="#">Skills</Link>
+                        <Link to='/skills' class="{style.links}" aria-current="page" href="#">Skills</Link>
                     </motion.div>
                     <motion.div class="nav-item  mx-4" whileTap={{scale: 1.2}}>
-                        <Link to='/hobbies' class="nav-link" aria-current="page" href="#">Hobbies</Link>
+                        <Link to='/hobbies' class="{style.links}" aria-current="page" href="#">Hobbies</Link>
                     </motion.div>
                     <motion.div class="nav-item  mx-4" whileTap={{scale: 1.2}}>
-                        <Link to='/contact' class="nav-link" aria-current="page" href="#">Contact</Link>
+                        <Link to='/contact' class="{style.links}" aria-current="page" href="#">Contact</Link>
                     </motion.div>
                 </ul>
             </div>

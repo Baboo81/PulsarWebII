@@ -10,15 +10,21 @@
 
 nav
 {
-    background-color: var(--bleu);
+    background-color: var(--noir);
     font-size: 2.5em;
     font-weight: 900;
     font-family: "Nanum Myeongjo", serif;
 }
 
-Link
+.links
 {
-    color: var(--beige);
+    color: var(--bleu);
+    text-decoration: none;
+}
+
+ul.links
+{
+    text-decoration: none;
 }
 
 
