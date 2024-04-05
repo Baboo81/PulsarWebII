@@ -20,11 +20,8 @@ nav
 {
     color: var(--bleu);
     text-decoration: none;
+    padding: 25px;
 }
 
-ul.links
-{
-    text-decoration: none;
-}
 
 
