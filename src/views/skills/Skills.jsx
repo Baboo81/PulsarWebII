@@ -36,13 +36,8 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                         <article className={style.art2}>
-
-                        </article>
-                    </div>
-                    <div className="col-md-6">
-                        <article className={style.art3}>
 
                         </article>
                     </div>
@@ -50,6 +45,13 @@ const Skills = () => {
                 <div className="row">
                     <div className="col-md-12 p-4">
                         <article className={style.art4}>
+
+                        </article>
+                    </div>
+                </div>
+                <div className="row">
+                <div className="col-md-12">
+                        <article className={style.art3}>
 
                         </article>
                     </div>
