@@ -6,6 +6,11 @@
     --beige : #eedfc2;
 }
 
+section
+{
+    height: 1600px;
+}
+
 article
 {
     height: 300px;
@@ -20,17 +25,17 @@ article
 
 .art2
 {
-    background: url(/public/img/web.jpg);
+    background: url(/public/img/web.jpg) center center no-repeat;
 }
 
 .art3
 {
-    background: url(/public/img/seo.jpg);
+    background: url(/public/img/seo.jpg) center center no-repeat;
 }
 
 .art4
 {
-    background: url(/public/img/cyber.png);
+    background: url(/public/img/cyber.png) center center no-repeat;
 }
 
 .picto

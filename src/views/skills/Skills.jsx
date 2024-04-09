@@ -23,7 +23,7 @@ const Skills = () => {
         <section>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-12 p-4">
+                    <div className="col-md-11 p-4">
                         <Title color="#6486ac" fontSize="5em" fontFamily="Nanum Myeongjo" />
                         <article className={style.art1}>
                             <h1>Hello</h1>
@@ -36,21 +36,21 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-md-11">
                         <article className={style.art2}>
 
                         </article>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12 p-4">
+                    <div className="col-md-11 p-4">
                         <article className={style.art4}>
 
                         </article>
                     </div>
                 </div>
                 <div className="row">
-                <div className="col-md-12">
+                <div className="col-md-11">
                         <article className={style.art3}>
 
                         </article>
