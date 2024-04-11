@@ -23,8 +23,8 @@ const Skills = () => {
         <section>
             <div className="container">
                 <div className="row">
+                <Title color="#6486ac" fontSize="5em" fontFamily="Nanum Myeongjo" />
                     <div className="col-md-11 p-4">
-                        <Title color="#6486ac" fontSize="5em" fontFamily="Nanum Myeongjo" />
                         <article className={style.art1}>
                             <h1>Hello</h1>
                             <div>
