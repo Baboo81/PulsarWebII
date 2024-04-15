@@ -40,7 +40,7 @@ const HomePage = () => {
         <section>
             <div class="container">
                 <div class="row p-3">
-                    <div class="col-md-3 p-3">
+                    <div class="col-md-3">
                         <Title color="#6486ac" fontSize="16em" fontFamily="Nanum Myeongjo" />
                         <Title2 color="#6486ac" fontSize="16em" fontFamily="Nanum Myeongjo" />
                     </div>
