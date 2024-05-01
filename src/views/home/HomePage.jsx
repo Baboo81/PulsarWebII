@@ -2,6 +2,7 @@ import style from './homePage.module.css';
 import NavBar from '../../components/NavBar/NavBar';
 import { Fragment } from 'react'; 
 import { motion } from "framer-motion";
+import Footer from '../../components/Footer/Footer';
 
 const title = "Pulsar";
 const title2 = "WEB";
@@ -55,6 +56,10 @@ const HomePage = () => {
                 </div>
             </div>
         </section>
+        
+        
+
+    
             
     )
 }
