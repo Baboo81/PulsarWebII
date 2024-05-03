@@ -50,7 +50,10 @@ const HomePage = () => {
                     </div>
                     <div class="col-md-5 p-5 text-start">
                         <motion.p class="p-4" initial={{x: 0, opacity: 0}} animate={{x: 100, opacity: 1}}>
-                            {skills.map(skill => (<li key={skill}> {skill} </li>))}
+                            {skills.map(skill => (
+                                <li key={skill}> {skill} </li>
+                                )
+                            )}
                         </motion.p>
                     </div>
                 </div>
