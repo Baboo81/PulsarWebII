@@ -7,6 +7,7 @@ import Hobbies from './views/hobbies/Hobbies';
 import Contact from './views/contact/Contact';
 import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -23,7 +24,7 @@ function App() {
         <Route path='/hobbies' element={<Hobbies />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
-     
+      <Footer />
     </div>
   );
 }
