@@ -4,11 +4,11 @@ import { Fragment } from 'react';
 import { motion } from "framer-motion";
 import Footer from '../../components/Footer/Footer';
 
-const title = "Pulsar";
-const title2 = "WEB";
+const title = "Info";
+const title2 = "LIBER";
 const skills = [
-    'Un design inspiré',
-    'Contact client personnalisé',
+    'Des ressources informatives pour les chercheurs de vérité',
+    'Des thématiques allant du décorticage géopolitique à l\'ingéniérie social en passant par la santé holistique',
     'Approche digitalisée'
 ]
 
