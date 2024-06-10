@@ -8,6 +8,7 @@ import Contact from './views/contact/Contact';
 import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
+import Count from './components/Count/Count';
 
 
 
@@ -20,8 +21,9 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/home' element={<HomePage />} />
-        <Route path='/skills' element={<Skills />} />
-        <Route path='/hobbies' element={<Hobbies />} />
+        <Route path='/geopolitique' element={<Géopolitique />} />
+        <Route path='/economie' element={<Économie />} />
+        <Route path='/divers' element={<Divers />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />

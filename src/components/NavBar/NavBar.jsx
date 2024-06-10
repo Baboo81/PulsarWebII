@@ -16,10 +16,13 @@ const NavBar = () => (
                         <Link to='/home' class={style.links} aria-current="page" href="#">Home</Link>
                     </motion.div>
                     <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
-                        <Link to='/skills' class={style.links} aria-current="page" href="#">Skills</Link>
+                        <Link to='/geopolitique' class={style.links} aria-current="page" href="#">Géopolitiques</Link>
                     </motion.div>
                     <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
-                        <Link to='/hobbies' class={style.links} aria-current="page" href="#">Hobbies</Link>
+                        <Link to='/economie' class={style.links} aria-current="page" href="#">Économie</Link>
+                    </motion.div>
+                    <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
+                        <Link to='/divers' class={style.links} aria-current="page" href="#">Divers</Link>
                     </motion.div>
                     <motion.div class="nav-item  mx-4 my-3" whileTap={{scale: 1.2}}>
                         <Link to='/contact' class={style.links} aria-current="page" href="#">Contact</Link>
