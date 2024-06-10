@@ -1,12 +1,22 @@
 import style from './count.module.css';
+import { useState } from 'react';
 
 const Count = () => {
 
-    let count = 0
+    //Hook useState:
+    const [count, setCount] = useState(0)
+    
+
+    const increment = () => {
+        setCount(count + 1)
+    }
     
     return
             <> 
-                <p>Compteur : {count}</p>
+                <div className="count">
+                    <p>Compteur : {count}</p>
+                    <buttton onClick={increment}>Increment</buttton>
+                </div>
             </>
 
 
