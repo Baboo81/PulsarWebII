@@ -2,13 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import HomePage from './views/home/HomePage';
-import Skills from './views/skills/Skills';
-import Hobbies from './views/hobbies/Hobbies';
+import Geopolitique from './views/geopolitique/Geopolitique';
+import Economie from './views/economie/Economie';
 import Contact from './views/contact/Contact';
 import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
-import Count from './components/Count/Count';
+
+
 
 
 
@@ -21,9 +22,8 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/home' element={<HomePage />} />
-        <Route path='/geopolitique' element={<Géopolitique />} />
-        <Route path='/economie' element={<Économie />} />
-        <Route path='/divers' element={<Divers />} />
+        <Route path='/geopolitique' element={<Geopolitique />} />
+        <Route path='/economie' element={<Economie />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />

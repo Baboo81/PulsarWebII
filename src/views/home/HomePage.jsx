@@ -3,14 +3,14 @@ import NavBar from '../../components/NavBar/NavBar';
 import { Fragment } from 'react'; 
 import { motion } from "framer-motion";
 import Footer from '../../components/Footer/Footer';
-import Count from '../../components/Count/Count';
+
 
 const title = "Info";
 const title2 = "LIBER";
 const skills = [
     'Des ressources informatives pour les chercheurs de vérité',
     'Des thématiques allant du décorticage géopolitique à l\'ingéniérie social en passant par la santé holistique',
-    'Approche digitalisée'
+    ''
 ]
 
 

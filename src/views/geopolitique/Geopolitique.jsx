@@ -1,9 +1,9 @@
-import style from './skills.module.css';
+import style from './geopolitique.module.css';
 import NavBar from '../../components/NavBar/NavBar';
 import { Fragment } from 'react';
 import { motion } from "framer-motion";
 
-const skillsTitle = "Skills";
+const geopolitiqueTitle = "Thèmes";
 
 function Title ({color, fontSize, fontFamily}) {
     return <h1 style = {
@@ -12,13 +12,13 @@ function Title ({color, fontSize, fontFamily}) {
             fontSize: fontSize,
             fontFamily: fontFamily
         }
-    }> {skillsTitle}
+    }> {geopolitiqueTitle}
             </h1>
 }
 
 
 
-const Skills = () => {
+const Geopolitique = () => {
     return (
         <section>
             <div className="container">
@@ -61,4 +61,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Geopolitique

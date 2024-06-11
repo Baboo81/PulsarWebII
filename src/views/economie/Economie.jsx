@@ -1,10 +1,10 @@
-import style from './hobbies.module.css';
+import style from './economie.module.css';
 import { motion } from "framer-motion";
 import Slider from '../../components/Slider/Slider';
 
 
 
-const Hobbies = () => { 
+const Economie = () => { 
     return (
         <section>
             <div className="container">
@@ -20,4 +20,4 @@ const Hobbies = () => {
 
 }
 
-export default Hobbies
+export default Economie
