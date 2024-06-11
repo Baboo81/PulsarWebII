@@ -24,9 +24,22 @@ const NavBar = () => (
                     <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
                         <Link to='/divers' class={style.links} aria-current="page" href="#">Divers</Link>
                     </motion.div>
-                    <motion.div class="nav-item  mx-4 my-3" whileTap={{scale: 1.2}}>
-                        <Link to='/contact' class={style.links} aria-current="page" href="#">Contact</Link>
-                    </motion.div>
+                    <motion.div class="nav-item dropdown">
+                        <Link to='/divers' class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                        </Link>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <motion.div>
+                                <Link class="dropdown-item" href="#">Action</Link>
+                            </motion.div>
+                            <motion.div>
+                                <Link class="dropdown-item" href="#">Another action</Link>
+                            </motion.div>
+                            <motion.div>
+                                <Link class="dropdown-item" href="#">Something else here</Link>
+                            </motion.div>
+                        </ul>
+                     </motion.div>
                 </ul>
             </div>
         </div>

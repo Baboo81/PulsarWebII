@@ -24,7 +24,7 @@ const Geopolitique = () => {
             <div className="container">
                 <div className="row">
                 <Title color="#6486ac" fontSize="5em" fontFamily="Nanum Myeongjo" />
-                    <div className="col-md-11 p-4">
+                    <div className="col-md-4 p-4">
                         <article className={style.art1}>
                             <h1>Hello</h1>
                             <div>
@@ -36,21 +36,21 @@ const Geopolitique = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-11">
+                    <div className="col-md-4">
                         <article className={style.art2}>
 
                         </article>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-11 p-4">
+                    <div className="col-md-4 p-4">
                         <article className={style.art4}>
 
                         </article>
                     </div>
                 </div>
                 <div className="row">
-                <div className="col-md-11">
+                <div className="col-md-4">
                         <article className={style.art3}>
 
                         </article>
