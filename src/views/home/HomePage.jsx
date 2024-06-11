@@ -8,9 +8,9 @@ import Footer from '../../components/Footer/Footer';
 const title = "Info";
 const title2 = "LIBER";
 const skills = [
-    'Des ressources informatives pour les chercheurs de vérité',
-    'Des thématiques allant du décorticage géopolitique à l\'ingéniérie social en passant par la santé holistique',
-    ''
+    'Des ressources informatives pour les chercheurs de vérité,',
+    'Des thématiques allant du décorticage géopolitique à l\'ingéniérie social en passant par la santé holistique,',
+    'Ce site vous aiguillera vers de l\'information libre et non soumise à la doxa.'
 ]
 
 

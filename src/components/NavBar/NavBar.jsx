@@ -13,7 +13,7 @@ const NavBar = () => (
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
-                        <Link to='/home' class={style.links} aria-current="page" href="#">Home</Link>
+                        <Link to='/home' class={style.links} aria-current="page" href="#">Accueil</Link>
                     </motion.div>
                     <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
                         <Link to='/geopolitique' class={style.links} aria-current="page" href="#">Géopolitiques</Link>

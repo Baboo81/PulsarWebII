@@ -1,9 +1,9 @@
 import Btn from '../../components/Btn/Btn';
-import style from './contact.module.css';
+import style from './divers.module.css';
 import { motion } from "framer-motion";
 
 
-const Contact = () => { 
+const Divers = () => { 
     return (
         <section>
             <div className="container">
@@ -21,4 +21,4 @@ const Contact = () => { 
     )
 }
 
-export default Contact
+export default Divers
