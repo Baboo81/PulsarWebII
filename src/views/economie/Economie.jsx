@@ -13,6 +13,11 @@ const Economie = () => {
                         <Slider />
                     </div>
                 </div>
+                <div className="row">
+                    <div className="col-md-12">
+                        <Slider />
+                    </div>
+                </div>
             </div>
         </section>
     )

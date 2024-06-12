@@ -24,7 +24,7 @@ const NavBar = () => (
                     <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
                         <Link to='/divers' class={style.links} aria-current="page" href="#">Divers</Link>
                     </motion.div>
-                    <motion.div class="nav-item dropdown">
+                    <motion.div class="nav-item dropdown" whileTap={{scale: 1.2}}>
                         <Link to='/divers' class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Dropdown link
                         </Link>
