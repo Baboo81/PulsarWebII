@@ -44,15 +44,14 @@ const HomePage = () => {
                 <div class="row p-3">
                     <motion.div class="col-md-3" animate={{
                         x: 0,
-                        backgroundColor: "#000",
+                        backgroundColor: "#bf152d",
                         boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)",
-                        position: "fixed",
                         transitionEnd: {
                             display: "non",
                         } 
                     }}>
-                        <Title color="#6486ac" fontSize="16em" fontFamily="Nanum Myeongjo" />
-                        <Title2 color="#6486ac" fontSize="16em" fontFamily="Nanum Myeongjo" />
+                        <Title color="#fff" fontSize="10em" fontFamily="Nanum Myeongjo" />
+                        <Title2 color="#fff" fontSize="6em" fontFamily="Nanum Myeongjo" />
                     </motion.div>
                     <div className="col-md-3">
                     
