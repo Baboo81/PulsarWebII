@@ -42,10 +42,18 @@ const HomePage = () => {
         <section>
             <div class="container">
                 <div class="row p-3">
-                    <div class="col-md-3">
+                    <motion.div class="col-md-3" animate={{
+                        x: 0,
+                        backgroundColor: "#000",
+                        boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)",
+                        position: "fixed",
+                        transitionEnd: {
+                            display: "non",
+                        } 
+                    }}>
                         <Title color="#6486ac" fontSize="16em" fontFamily="Nanum Myeongjo" />
                         <Title2 color="#6486ac" fontSize="16em" fontFamily="Nanum Myeongjo" />
-                    </div>
+                    </motion.div>
                     <div className="col-md-3">
                     
                     </div>
