@@ -14,6 +14,8 @@ const skills = [
 ]
 
 
+
+
 function Title ({color, fontSize, fontFamily}) {
     return <h1 style = {
                 {
@@ -45,12 +47,11 @@ const HomePage = () => {
                     <motion.div class="col-md-3" animate={{
                         x: 0,
                         backgroundColor: "#bf152d",
-                        boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)",
                         transitionEnd: {
                             display: "non",
-                        } 
+                        }
                     }}>
-                        <Title color="#fff" fontSize="10em" fontFamily="Nanum Myeongjo" />
+                        <Title color="#fff" fontSize="10em" fontFamily="Nanum Myeongjo"  />
                         <Title2 color="#fff" fontSize="6em" fontFamily="Nanum Myeongjo" />
                     </motion.div>
                     <div className="col-md-3">
