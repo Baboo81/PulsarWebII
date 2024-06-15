@@ -23,7 +23,9 @@ const Divers = () => { 
                 <div className="row">
                     <div className="col-md-12">
                         <div className="vstack gap-2">
-                            <motion.div className="box" initial={{opacity: 0}} animate={{opacity: 1}}>1</motion.div>
+                            <motion.div className={style.box} initial={{opacity: 0}} animate={{opacity: 1}}>1</motion.div>
+                            <motion.div className={style.box} initial={{opacity: 0}} animate={{opacity: 1}}>2</motion.div>
+                            <motion.div className={style.box} initial={{opacity: 0}} animate={{opacity: 1}}>3</motion.div>
                         </div>
                         <div>
                             <button>Afficher / Masquer</button>
