@@ -43,7 +43,7 @@ const HomePage = () => {
     return (
         <section>
             <div class="container">
-                <div class="row p-3">
+                <div class="row p-5">
                     <motion.div class="col-md-3" animate={{
                         x: 0,
                         backgroundColor: "#bf152d",
