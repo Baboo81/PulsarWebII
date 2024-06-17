@@ -3,7 +3,7 @@ import NavBar from '../../components/NavBar/NavBar';
 import { Fragment } from 'react';
 import { motion } from "framer-motion";
 
-const geopolitiqueTitle = "Thèmes";
+const geopolitiqueTitle = "Sources";
 
 function Title ({color, fontSize, fontFamily}) {
     return <h1 style = {
@@ -28,9 +28,7 @@ const Geopolitique = () => {
                         <article className={style.art1}>
                             <h1>Hello</h1>
                             <div>
-                                <img className={style.picto} src="../../public/svg/skills/html5.svg" alt="HTML" />
-                                <img className={style.picto} src="../../public/svg/skills/css3.svg" alt="CSS3" />
-                                <img className={style.picto} src="../../public/svg/skills/javascript.svg" alt="JS" />
+                                
                             </div>
                         </article>
                     </div>
