@@ -1,9 +1,10 @@
 :root
 {
-    --noir : #08091b;
-    --bleu : #6486ac;
-    --gris : #c0bfc4;
-    --beige : #eedfc2;
+    --noir : #050000;
+    --gris : #c2b3b0;
+    --roseP : #ffc3bb;
+    --roseF : #ff8e96;
+    --rouge : #bf152d;
 }
 
 section
@@ -15,27 +16,27 @@ article
 {
     height: 300px;
     width: 100%;
-    border: 1px solid var(--bleu);
+    border: 1px solid var(--gris);
 }
 
 .art1
 {
-    background: url(/public/img/coder.png) center center no-repeat;
+    background: url(/public/img/géopolitique/IdrissAberkane.svg) center center no-repeat;
 }
 
 .art2
 {
-    background: url(/public/img/web.jpg) center center no-repeat;
+    background: url(/public/img/géopolitique/PierreHillard.svg) center center no-repeat;
 }
 
 .art3
 {
-    background: url(/public/img/seo.jpg) center center no-repeat;
+    background: url() center center no-repeat;
 }
 
 .art4
 {
-    background: url(/public/img/cyber.png) center center no-repeat;
+    background: url() center center no-repeat;
 }
 
 .picto

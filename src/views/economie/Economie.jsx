@@ -9,14 +9,21 @@ const Economie = () => {
         <section>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-12">
-                        <Slider />
+                    <div className="col-md-4 p-4">
+                        <article className={style.art1}>
+
+                        </article>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12">
-                        <Slider />
+                    <div className="col-md-4 p-4">
+                        <article className={style.art2}>
+
+                        </article>
                     </div>
+                </div>
+                <div className="row">
+                    <Slider />
                 </div>
             </div>
         </section>
