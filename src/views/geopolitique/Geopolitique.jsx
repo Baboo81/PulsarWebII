@@ -3,6 +3,7 @@ import NavBar from '../../components/NavBar/NavBar';
 import { Fragment } from 'react';
 import { motion } from "framer-motion";
 import Slider from '../../components/Slider/Slider';
+import TitleMain from '../../components/TitleMain/TitleMain';
 
 const geopolitiqueTitle = "Sources";
 
@@ -25,6 +26,7 @@ const Geopolitique = () => {
             <div className="container">
                 <div className="row">
                 <Title color="#6486ac" fontSize="5em" fontFamily="Nanum Myeongjo" />
+                <TitleMain title="Les sites" />
                     <div className="col-md-4 p-4">
                         <article className={style.art1}>
                             <div>
@@ -40,6 +42,7 @@ const Geopolitique = () => {
                         </article>
                     </div>
                 </div>
+                <TitleMain title="Les livres"/>
                 <div className="row">
                     <Slider />
                 </div>

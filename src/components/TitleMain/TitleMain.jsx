@@ -1,13 +1,16 @@
 import style from './titleMain.module.css';
+import { motion } from 'framer-motion';
 
-function TitleMain ({color, fontSize, fontFamily}) {
-    return <h1 style = {
-        {
-            color: color,
-            fontSize: fontSize,
-            fontFamily: fontFamily
-        }
-    }> 
-            </h1>
-}
+const TitleMain = (props) => {
+    const {title} = props;
+
+
+    return (
+        <>
+            <h1>{title}</h1>
+        </>
+    );
+};
+
+export default TitleMain
 
