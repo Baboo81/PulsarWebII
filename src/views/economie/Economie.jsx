@@ -24,10 +24,6 @@ const Economie = () => {
                         </article>
                     </div>
                 </div>
-                <div className="row">
-                <TitleMain title="Les livres" />
-                    <Slider />
-                </div>
             </div>
         </section>
     )

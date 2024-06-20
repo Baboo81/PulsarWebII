@@ -1,6 +1,47 @@
-.box
+:root
 {
-    height: 50px;
-    width: 50px;
-    border: 1px solid wheat;
+    --noir : #050000;
+    --gris : #c2b3b0;
+    --roseP : #ffc3bb;
+    --roseF : #ff8e96;
+    --rouge : #bf152d;
+}
+
+section
+{
+    height: 1600px;
+}
+
+article
+{
+    height: 300px;
+    width: 100%;
+    border: 1px solid var(--gris);
+}
+
+.art1
+{
+    background: url(/public/img/géopolitique/IdrissAberkane.svg) center center no-repeat;
+}
+
+.art2
+{
+    background: url(/public/img/géopolitique/PierreHillard.svg) center center no-repeat;
+}
+
+.art3
+{
+    background: url() center center no-repeat;
+}
+
+.art4
+{
+    background: url() center center no-repeat;
+}
+
+.picto
+{
+    height: 300px;
+    width: 300px;
+    z-index: 100;
 }

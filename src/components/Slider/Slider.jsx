@@ -6,23 +6,23 @@ import CarouselSlider from 'react-carousel-slider';
 let data = [
   {
     desc: "1",
-    imgSrc: "https://i.imgur.com/d5aiXJP.jpg"
+    imgSrc: "./public/img/livres/IdrissA/Livre1.png"
   },
   {
     desc: "2",
-    imgSrc: "https://i.imgur.com/pgCzueK.jpg"
+    imgSrc: "./public/img/livres/IdrissA/Livre2.png"
   },
   {
     desc: "3",
-    imgSrc: "https://i.imgur.com/7nbAJ0C.jpg"
+    imgSrc: "./public/img/livres/IdrissA/Livre3.png"
   },
   {
     desc: "4",
-    imgSrc: "https://i.imgur.com/L75otV6.jpg"
+    imgSrc: ""
   },
   {
     desc: "5",
-    imgSrc: "https://i.imgur.com/qkPMr9D.jpg"
+    imgSrc: ""
   }
 ];
 
@@ -66,6 +66,8 @@ let manner = {
 };
 
 const Slider = () => { 
+  
+
   return (
     <CarouselSlider
       slideItems={data}

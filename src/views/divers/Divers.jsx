@@ -12,24 +12,24 @@ const Divers = () => { 
         <section>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-12 p-5">
-                        <article className="p-3">
-                            <h1>Adresse</h1>
-                
-                            <p>Rue champ rodange 14, 1410 Waterloo</p>
+                    <div className="col-md-4 p-4">
+                        <article className={style.art1}>
+                            
                         </article>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12">
-                        <div className="vstack gap-2">
-                            <motion.div className={style.box} initial={{opacity: 0}} animate={{opacity: 1}}>1</motion.div>
-                            <motion.div className={style.box} initial={{opacity: 0}} animate={{opacity: 1}}>2</motion.div>
-                            <motion.div className={style.box} initial={{opacity: 0}} animate={{opacity: 1}}>3</motion.div>
-                        </div>
-                        <div>
-                            <button>Afficher / Masquer</button>
-                        </div>
+                    <div className="col-md-4 p-4">
+                        <article className={style.art2}>
+
+                        </article>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-4 p-4">
+                        <article className={style.art3}>
+
+                        </article>
                     </div>
                 </div>
             </div>

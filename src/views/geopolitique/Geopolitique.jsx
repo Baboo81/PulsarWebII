@@ -44,8 +44,12 @@ const Geopolitique = () => {
                 </div>
                 <TitleMain title="Les livres"/>
                 <div className="row">
-                    <Slider />
-                </div>
+                    <div className="col-md-4">
+                            <article className={style.art3}>
+
+                            </article>
+                        </div>
+                    </div>
             </div>
         </section>
     )
