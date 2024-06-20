@@ -17,17 +17,39 @@ const Divers = () => { 
                             
                         </article>
                     </div>
-                </div>
-                <div className="row">
                     <div className="col-md-4 p-4">
                         <article className={style.art2}>
-
+                            
                         </article>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-4 p-4">
                         <article className={style.art3}>
+
+                        </article>
+                    </div>
+                    <div className="col-md-4 p-4">
+                        <article className={style.art4}>
+
+                        </article>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-4 p-4">
+                        <article className={style.art5}>
+
+                        </article>
+                    </div>
+                    <div className="col-md-4 p-4">
+                        <article className={style.art6}>
+
+                        </article>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-4 p-4">
+                        <article className={style.art7}>
 
                         </article>
                     </div>
