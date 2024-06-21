@@ -53,6 +53,11 @@ const Divers = () => { 
 
                         </article>
                     </div>
+                    <div className="col-md-4 p-4">
+                        <article className={style.art8}>
+
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
