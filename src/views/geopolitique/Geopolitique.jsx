@@ -4,6 +4,7 @@ import { Fragment } from 'react';
 import { motion } from "framer-motion";
 import Slider from '../../components/Slider/Slider';
 import TitleMain from '../../components/TitleMain/TitleMain';
+import Btn from '../../components/Btn/Btn';
 
 const geopolitiqueTitle = "Sources";
 
@@ -28,10 +29,11 @@ const Geopolitique = () => {
                 <Title color="#6486ac" fontSize="5em" fontFamily="Nanum Myeongjo" />
                     <div className="col-md-4 p-4">
                         <article className={style.art1}>
-                            <div>
-                                
-                            </div>
+                           
                         </article>
+                        <div className="p-3">
+                                <Btn />
+                        </div>
                     </div>
                 </div>
                 <div className="row">
@@ -39,6 +41,9 @@ const Geopolitique = () => {
                         <article className={style.art2}>
 
                         </article>
+                        <div className="p-3">
+                                <Btn />
+                        </div>
                     </div>
                 </div>
                 <div className="row">
@@ -46,6 +51,9 @@ const Geopolitique = () => {
                             <article className={style.art3}>
 
                             </article>
+                            <div className="p-3">
+                                <Btn />
+                        </div>
                         </div>
                     </div>
             </div>

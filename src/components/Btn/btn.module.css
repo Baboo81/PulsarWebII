@@ -1,26 +1,27 @@
 :root
 {
-    --noir : #08091b;
-    --bleu : #6486ac;
-    --gris : #c0bfc4;
-    --beige : #eedfc2;
+    --noir : #050000;
+    --gris : #c2b3b0;
+    --roseP : #ffc3bb;
+    --roseF : #ff8e96;
+    --rouge : #bf152d;
 }
 
 button
 {
     height: 3em;
     width: 7em;
-    color: var(--bleu);
-    font-size: .7em;
+    color: var(--roseF);
+    font-size: 1.2em !important;
     font-weight: bold;
-    background-color: var(--beige);
-    border-radius: 30px;
-    border: solid 2px var(--bleu);
+    background-color: var(--yellow);
+    border-radius: 50px !important;
+    border: solid 2px var(--roseF);
 }
 
 button:hover
 {
-    background-color: var(--bleu);
-    color: var(--beige);
+    background-color: var(--noir);
+    color: var(--gris);
     border: solid 2px var(--gris);
 }

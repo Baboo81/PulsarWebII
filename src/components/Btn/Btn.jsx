@@ -1,7 +1,7 @@
 import style from './btn.module.css';
 
 const Btn = () => (
-    <button>OK</button>
+    <button>Aller vers ce site</button>
 );
 
 export default Btn
