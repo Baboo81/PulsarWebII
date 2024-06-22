@@ -16,7 +16,7 @@ const NavBar = () => (
                         <Link to='/home' class={style.links} aria-current="page" href="#">Accueil</Link>
                     </motion.div>
                     <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
-                        <Link to='/geopolitique' class={style.links} aria-current="page" href="#">Géopolitiques</Link>
+                        <Link to='/geopolitique' class={style.links} aria-current="page" href="#">Géopolitique</Link>
                     </motion.div>
                     <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
                         <Link to='/economie' class={style.links} aria-current="page" href="#">Économie</Link>
