@@ -66,6 +66,9 @@ const HomePage = () => {
                         </motion.p>
                     </div>
                 </div>
+                <div className="row">
+                    <p className="p-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex hic odio labore fugit distinctio, ullam optio? Dolore modi accusamus quis voluptates enim animi voluptatem harum, eos minima numquam impedit, nam iusto voluptatum sint. Et, nostrum earum obcaecati est sed eos, tempore, possimus doloremque ipsum soluta laborum excepturi cum in ipsam. Dignissimos earum omnis ipsa saepe illo esse nesciunt obcaecati, officia facere consectetur ipsam incidunt qui repudiandae quam rerum veritatis sit! Harum deleniti iure odit laborum quisquam minima cupiditate deserunt doloremque ab! Sint ipsa pariatur velit. Nam voluptatibus vitae quaerat dolore. Quia, eveniet? Excepturi autem perspiciatis debitis quas, itaque, porro libero officia sequi natus cumque vero. Alias quidem ut tempore facilis perferendis, sunt explicabo veniam harum voluptatibus vitae quis consectetur commodi maxime qui sint dolor eos totam, exercitationem beatae fugit ea sit quisquam aliquid! Ipsa quaerat mollitia deleniti iste minima quisquam, adipisci rem soluta quae minus! Recusandae similique odit libero accusamus.</p>
+                </div>
             </div>
         </section>
         
