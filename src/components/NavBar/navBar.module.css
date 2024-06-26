@@ -2,6 +2,7 @@
 
 :root
 {
+    --blanc : #ffffff;
     --noir : #050000;
     --gris : #c2b3b0;
     --roseP : #ffc3bb;
@@ -11,11 +12,11 @@
 
 nav
 {
-    background-color: var(--noir);
+    background-color: var(--blanc);
     font-size: 2.5em;
     font-weight: 900;
     font-family: "Nanum Myeongjo", serif;
-    border-bottom: solid 1px var(--rouge);
+    border-bottom: solid .5px var(--gris);
 }
 
 .links

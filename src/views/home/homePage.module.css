@@ -1,5 +1,6 @@
 :root
 {
+    --blanc : #ffffff;
     --noir : #050000;
     --gris : #c2b3b0;
     --roseP : #ffc3bb;
@@ -9,7 +10,7 @@
 
 section
 {
-    background-color: var(--noir);
+    background-color: var(--blanc);
     height: 1200px;
 }
 
