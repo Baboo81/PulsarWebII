@@ -43,16 +43,16 @@ const HomePage = () => {
     return (
         <section>
             <div class="container">
-                <div class="row p-5">
-                    <motion.div class="col-md-3" animate={{
+                <div class="row p-5 header">
+                    <motion.div class="col-md-4" animate={{
                         x: 0,
                         backgroundColor: "#bf152d",
                         transitionEnd: {
                             display: "non",
                         }
                     }}>
-                        <Title color="#fff" fontSize="10em" fontFamily="Nanum Myeongjo"  />
-                        <Title2 color="#fff" fontSize="6em" fontFamily="Nanum Myeongjo" />
+                        <Title color="#fff" fontSize="10em" fontFamily="Bodoni Moda"  />
+                        <Title2 color="#fff" fontSize="6em" fontFamily="Bodoni Moda" />
                     </motion.div>
                     <div className="col-md-3">
                     

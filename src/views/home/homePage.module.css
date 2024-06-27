@@ -14,6 +14,12 @@ section
     height: 1200px;
 }
 
+.header
+{
+    background-color: #c2b3b0;
+    
+}
+
 p
 {
     color: var(--gris);
