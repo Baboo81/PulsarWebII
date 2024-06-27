@@ -1,7 +1,9 @@
 :root
 {
+    --blanc : #ffffff;
     --noir : #050000;
     --gris : #c2b3b0;
+    --grisF : #1b1b1b;
     --roseP : #ffc3bb;
     --roseF : #ff8e96;
     --rouge : #bf152d;
@@ -10,18 +12,18 @@
 button
 {
     height: 3em;
-    width: 7em;
-    color: var(--roseF);
+    width: 12em;
+    color: var(--rouge);
     font-size: 1.2em !important;
     font-weight: bold;
     background-color: var(--yellow);
     border-radius: 50px !important;
-    border: solid 2px var(--roseF);
+    border: solid 2px var(--rouge);
 }
 
 button:hover
 {
-    background-color: var(--noir);
-    color: var(--gris);
-    border: solid 2px var(--gris);
+    background-color: var(--gris);
+    color: var(--noir);
+    border: solid 2px var(--noir);
 }

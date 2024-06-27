@@ -1,5 +1,5 @@
 import Btn from '../../components/Btn/Btn';
-import style from './divers.module.css';
+import style from './categories.module.css';
 import { motion } from "framer-motion";
 
 const boxVariants = {
@@ -7,7 +7,7 @@ const boxVariants = {
     hidden: { x: 100, opacity: 0, rotate: 45 },
 };
 
-const Divers = () => { 
+const Categories = () => { 
     return (
         <section>
             <div className="container">
@@ -16,11 +16,17 @@ const Divers = () => { 
                         <article className={style.art1}>
                             
                         </article>
+                        <div className="p-3">
+                            <Btn />
+                        </div>
                     </div>
                     <div className="col-md-4 p-4">
                         <article className={style.art2}>
                             
                         </article>
+                        <div className="p-3">
+                            <Btn />
+                        </div>
                     </div>
                 </div>
                 <div className="row">
@@ -28,11 +34,17 @@ const Divers = () => { 
                         <article className={style.art3}>
 
                         </article>
+                        <div className="p-3">
+                            <Btn />
+                        </div>
                     </div>
                     <div className="col-md-4 p-4">
                         <article className={style.art4}>
 
                         </article>
+                        <div className="p-3">
+                            <Btn />
+                        </div>
                     </div>
                 </div>
                 <div className="row">
@@ -40,11 +52,17 @@ const Divers = () => { 
                         <article className={style.art5}>
 
                         </article>
+                        <div className="p-3">
+                            <Btn />
+                        </div>
                     </div>
                     <div className="col-md-4 p-4">
                         <article className={style.art6}>
 
                         </article>
+                        <div className="p-3">
+                            <Btn />
+                        </div>
                     </div>
                 </div>
                 <div className="row">
@@ -52,11 +70,17 @@ const Divers = () => { 
                         <article className={style.art7}>
 
                         </article>
+                        <div className="p-3">
+                            <Btn />
+                        </div>
                     </div>
                     <div className="col-md-4 p-4">
                         <article className={style.art8}>
 
                         </article>
+                        <div className="p-3">
+                            <Btn />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -64,4 +88,4 @@ const Divers = () => { 
     )
 }
 
-export default Divers
+export default Categories
