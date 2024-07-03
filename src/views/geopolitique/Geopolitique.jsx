@@ -3,22 +3,9 @@ import NavBar from '../../components/NavBar/NavBar';
 import { Fragment } from 'react';
 import { motion } from "framer-motion";
 import Slider from '../../components/Slider/Slider';
-import TitleMain from '../../components/TitleMain/TitleMain';
+import TitleMain from '../../components/MainTitle/MainTitle';
 import Btn from '../../components/Btn/Btn';
-
-const geopolitiqueTitle = "Sources";
-
-function Title ({color, fontSize, fontFamily}) {
-    return <h1 style = {
-        {
-            color: color,
-            fontSize: fontSize,
-            fontFamily: fontFamily
-        }
-    }> {geopolitiqueTitle}
-            </h1>
-}
-
+import MainTitle from '../../components/MainTitle/MainTitle';
 
 
 const Geopolitique = () => {
@@ -26,11 +13,16 @@ const Geopolitique = () => {
         <section>
             <div className="container">
                 <div className="row">
-                <Title color="#6486ac" fontSize="5em" fontFamily="Nanum Myeongjo" />
+                    <div className="p-5">
+                        <MainTitle title= "Sources" />
+                    </div>
                     <div className="col-md-4 p-4">
                         <article className={style.art1}>
                            
                         </article>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cupiditate officiis mollitia earum ullam voluptate aut odio nam, velit labore nulla numquam in voluptas consequuntur voluptatum facere qui maiores error!</p>
+                        </div>
                         <div className="p-3">
                                 <Btn url="https://scanderia.com/"/>
                         </div>
@@ -41,6 +33,9 @@ const Geopolitique = () => {
                         <article className={style.art2}>
 
                         </article>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cupiditate officiis mollitia earum ullam voluptate aut odio nam, velit labore nulla numquam in voluptas consequuntur voluptatum facere qui maiores error!</p>
+                        </div>
                         <div className="p-3">
                                 <Btn src=""/>
                         </div>
@@ -51,6 +46,9 @@ const Geopolitique = () => {
                             <article className={style.art3}>
 
                             </article>
+                            <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cupiditate officiis mollitia earum ullam voluptate aut odio nam, velit labore nulla numquam in voluptas consequuntur voluptatum facere qui maiores error!</p>
+                        </div>
                             <div className="p-3">
                                 <Btn />
                         </div>

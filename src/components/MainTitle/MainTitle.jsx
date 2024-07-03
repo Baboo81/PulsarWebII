@@ -1,7 +1,7 @@
-import style from './titleMain.module.css';
+import style from './mainTitle.module.css';
 import { motion } from 'framer-motion';
 
-const TitleMain = (props) => {
+const MainTitle = (props) => {
     const { title } = props;
 
 
@@ -12,5 +12,5 @@ const TitleMain = (props) => {
     );
 };
 
-export default TitleMain
+export default MainTitle
 
