@@ -32,7 +32,7 @@ const Geopolitique = () => {
                            
                         </article>
                         <div className="p-3">
-                                <Btn />
+                                <Btn url="https://scanderia.com/"/>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ const Geopolitique = () => {
 
                         </article>
                         <div className="p-3">
-                                <Btn />
+                                <Btn src=""/>
                         </div>
                     </div>
                 </div>
