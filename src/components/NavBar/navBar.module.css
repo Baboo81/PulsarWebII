@@ -13,7 +13,7 @@
 
 nav
 {
-    background-color: var(--gris);
+    background-color: var(--blanc);
     font-family: "Bodoni Moda", serif;
     font-size: 2.5em;
     font-weight: 400;
@@ -24,7 +24,7 @@ nav
 {
     color: var(--rouge);
     text-decoration: none;
-    padding: 175px;
+    padding: 85px;
 }
 
 

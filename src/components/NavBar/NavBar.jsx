@@ -26,17 +26,17 @@ const NavBar = () => (
                     </motion.div>
                     <motion.div class="nav-item dropdown" whileTap={{scale: 1.2}}>
                         <Link to='/divers' class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown link
+                            Catégories
                         </Link>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <motion.div>
-                                <Link class="dropdown-item" href="#">Action</Link>
+                                <Link to='/sante' class="dropdown-item" href="#">Santé</Link>
                             </motion.div>
                             <motion.div>
-                                <Link class="dropdown-item" href="#">Another action</Link>
+                                <Link to='/souverainete' class="dropdown-item" href="#">Souveraineté</Link>
                             </motion.div>
                             <motion.div>
-                                <Link class="dropdown-item" href="#">Something else here</Link>
+                                <Link to='/actualite' class="dropdown-item" href="#">Actualités</Link>
                             </motion.div>
                         </ul>
                      </motion.div>
