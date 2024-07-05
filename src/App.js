@@ -10,6 +10,7 @@ import Actualite from './views/Actualites/Actualite';
 import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
+import Souverainete from './views/Souverainete/Souverainete';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Route path='/Categories' element={<Categories />} />
         <Route path='/Sante' element={<Sante />} />
         <Route path='/Actualite' element={<Actualite />} />
+        <Route path='/Souverainete' element={<Souverainete />} />
       </Routes>
       <Footer />
     </div>

@@ -1,0 +1,69 @@
+:root
+{
+    --blanc : #ffffff;
+    --noir : #050000;
+    --gris : #c2b3b0;
+    --grisF : #1b1b1b;
+    --roseP : #ffc3bb;
+    --roseF : #ff8e96;
+    --rouge : #bf152d;
+}
+
+section
+{
+    height: 2600px;
+}
+
+article
+{
+    height: 300px;
+    width: 100%;
+    border: 1px solid var(--gris);
+}
+
+.art1
+{
+    background: url(/public/img/divers/LouisFouché.svg) center center no-repeat;
+}
+
+.art2
+{
+    background: url(/public/img/divers/EmaCrusi.svg) center center no-repeat;
+}
+
+.art3
+{
+    background: url(/public/img/divers/JjCrevecoeur.svg) center center no-repeat;
+}
+
+.art4
+{
+    background: url(/public/img/divers/IreneGrosjean.svg) center center no-repeat;
+}
+
+.art5
+{
+    background: url(/public/img/divers/SalimLaïbi.svg) center center no-repeat;
+}
+
+.art6
+{
+    background: url(/public/img/divers/Marie-SophieL.svg) center center no-repeat;
+}
+
+.art7
+{
+    background: url(/public/img/divers/ThierryCasasnovas.svg) center center no-repeat;
+}
+
+.art8
+{
+    background: url(/public/img/divers/AlexandrePenasse.svg) center center no-repeat;
+}
+
+.picto
+{
+    height: 300px;
+    width: 300px;
+    z-index: 100;
+}

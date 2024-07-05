@@ -6,10 +6,12 @@ const NavBar = () => (
 
     <nav className="navbar navbar-expand-lg p-3">
             <div class="container-fluid">
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <a class="navbar-brand" href="#">
+                    <img className={style.logo} src="public/svg/logo/Logo.svg" alt="Logo du site"  />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
@@ -21,9 +23,6 @@ const NavBar = () => (
                     <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
                         <Link to='/Economie' class={style.links} aria-current="page" href="#">Économie</Link>
                     </motion.div>
-                    <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
-                        <Link to='/Categories' class={style.links} aria-current="page" href="#">Catégories</Link>
-                    </motion.div>
                     <motion.div class="nav-item dropdown" whileTap={{scale: 1.2}}>
                         <Link to='/divers' class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Catégories
@@ -32,12 +31,17 @@ const NavBar = () => (
                             <motion.div>
                                 <Link to='/Sante' class="dropdown-item" href="#">Santé</Link>
                             </motion.div>
-                           
                             <motion.div>
                                 <Link to='/Actualite' class="dropdown-item" href="#">Actualités</Link>
                             </motion.div>
+                            <motion.div>
+                                <Link to='/Souverainete' class="dropdown-item" href="#">Souveraineté</Link>
+                            </motion.div>
                         </ul>
                      </motion.div>
+                     <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
+                        <Link to='/Livres' class={style.links} aria-current="page" href="#">Livres</Link>
+                    </motion.div>
                 </ul>
             </div>
         </div>
