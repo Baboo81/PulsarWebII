@@ -41,9 +41,10 @@ function Title2 ({color, fontSize, fontFamily}) {
 const HomePage = () => {
 
     return (
+    
         <section>
             <div class="container">
-                <div class="row p-5 header">
+                <div class="row p-5" className={style.header}>
                     <motion.div class="col-md-4" animate={{
                         x: 0,
                         backgroundColor: "#bf152d",
