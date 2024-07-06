@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const NavBar = () => (
 
-    <nav className="navbar navbar-expand-lg p-3">
+    <nav className="navbar navbar-expand-lg position-fixed p-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img className={style.logo} src="public/svg/logo/Logo.svg" alt="Logo du site"  />
