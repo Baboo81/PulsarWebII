@@ -45,7 +45,7 @@ const HomePage = () => {
         <section>
             <div class="container">
                 <div class="row p-5" className={style.header}>
-                    <motion.div class="col-md-4" animate={{
+                    <motion.div class="col-md-3" animate={{
                         x: 0,
                         backgroundColor: "#bf152d",
                         transitionEnd: {
@@ -55,10 +55,10 @@ const HomePage = () => {
                         <Title color="#fff" fontSize="10em" fontFamily="Bodoni Moda"  />
                         <Title2 color="#fff" fontSize="6em" fontFamily="Bodoni Moda" />
                     </motion.div>
-                    <div className="col-md-3">
+                    <div className="col-md-1">
                     
                     </div>
-                    <div class="col-md-5 p-5 text-start">
+                    <div class="col-md-6 p-5 text-start">
                         <motion.p class="p-4" initial={{x: 0, opacity: 0}} animate={{x: 100, opacity: 1}}>
                             {skills.map(skill => (
                                 <li key={skill}> {skill} </li>
