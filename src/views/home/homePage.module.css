@@ -18,7 +18,6 @@ section
 .header
 {
     background-color: var(--grisF);
-    width: ;
     
 }
 
@@ -26,4 +25,26 @@ p
 {
     color: var(--gris);
     font-size: 1.8em;
+}
+
+/*Média queries*/
+/*Pour les mobiles, à largeur d'ecran inférieur à 480px :*/
+
+@media only screen and (max-width : 480px)
+{
+
+}
+
+/*Pour les tablettes :*/
+
+@media only screen and (min-width : 481px) and (max-width : 810px)
+{
+
+}
+
+/*Pour les desktops :*/
+
+@media only sceen and (min-width : 811px) and (max-width : 1288px)
+{
+
 }
