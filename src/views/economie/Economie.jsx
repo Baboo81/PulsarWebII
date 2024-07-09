@@ -12,7 +12,7 @@ const Economie = () => {
             <div className="container">
                 <div className="row">
                     <div className="p-5">
-                        <MainTitle title="Sources" />
+                        <MainTitle title="L'économie" />
                     </div>
                     <div className="col-md-4 p-4">
                         <article className={style.art1}>

@@ -3,6 +3,7 @@ import NavBar from '../../components/NavBar/NavBar';
 import { Fragment } from 'react'; 
 import { motion } from "framer-motion";
 import Footer from '../../components/Footer/Footer';
+import MainTitle from '../../components/MainTitle/MainTitle';
 
 
 const title = "Info";
@@ -17,25 +18,25 @@ const skills = [
 
 
 function Title ({color, fontSize, fontFamily}) {
-    return <h1 style = {
+    return <h2 style = {
                 {
                     color : color,
                     fontSize : fontSize,
                     fontFamily : fontFamily
                 }
                         }> {title}
-           </h1>
+           </h2>
 }
 
 function Title2 ({color, fontSize, fontFamily}) {
-    return <h1 style = {
+    return <h2 style = {
                 {
                     color : color,
                     fontSize : fontSize,
                     fontFamily : fontFamily
                 }
                        }> {title2}
-            </h1>
+            </h2>
 }
 
 const HomePage = () => {
@@ -45,7 +46,7 @@ const HomePage = () => {
         <section>
             <div class="container">
                 <div class="row p-5" className={style.header}>
-                    <motion.div class="col-md-3" animate={{
+                    <motion.div class="col-md-4" animate={{
                         x: 0,
                         backgroundColor: "#bf152d",
                         transitionEnd: {
@@ -68,7 +69,8 @@ const HomePage = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <motion.p className="p-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex hic odio labore fugit distinctio, ullam optio? Dolore modi accusamus quis voluptates enim animi voluptatem harum, eos minima numquam impedit, nam iusto voluptatum sint. Et, nostrum earum obcaecati est sed eos, tempore, possimus doloremque ipsum soluta laborum excepturi cum in ipsam. Dignissimos earum omnis ipsa saepe illo esse nesciunt obcaecati, officia facere consectetur ipsam incidunt qui repudiandae quam rerum veritatis sit! Harum deleniti iure odit laborum quisquam minima cupiditate deserunt doloremque ab! Sint ipsa pariatur velit. Nam voluptatibus vitae quaerat dolore. Quia, eveniet? Excepturi autem perspiciatis debitis quas, itaque, porro libero officia sequi natus cumque vero. Alias quidem ut tempore facilis perferendis, sunt explicabo veniam harum voluptatibus vitae quis consectetur commodi maxime qui sint dolor eos totam, exercitationem beatae fugit ea sit quisquam aliquid! Ipsa quaerat mollitia deleniti iste minima quisquam, adipisci rem soluta quae minus! Recusandae similique odit libero accusamus.
+                    <MainTitle title="Une information de qualité" />
+                    <motion.p className="p-5">Information Liber a pour objectif d'apporter un nouvel angle de vue sur des thématiques qui sont de nos jours manipulées par les médias de masse. La sélèction des différentes plate-formes est basée sur des critères tels que ; l'honnêteté intéllectuelle mais aussi sur l'intégrite de ces auteurs. Á l'heure actuelle les médias de grand chemin ne jouissent plus de l'indépendance dont ils devraient être garants, d'où l'intérrêt d'avoir mis sur pied ce site qui vous permettra de découvrir une série de plate-forme qui oeuvre dans le sens de la souverainté intelectuelle, le libre arbitre.
                     </motion.p>
                 </div>
             </div>

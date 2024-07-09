@@ -44,7 +44,16 @@ nav
 
 @media only screen and (max-width : 480px)
 {
+    button.navbar-toggler
+    {
+        height: 15px;
+        width: 15px;
+    }
 
+    .dropdown-item
+    {
+        text-align: center;
+    }
 }
 
 /*Pour les tablettes :*/
