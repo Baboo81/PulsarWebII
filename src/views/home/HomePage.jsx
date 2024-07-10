@@ -2,7 +2,6 @@ import style from './homePage.module.css';
 import NavBar from '../../components/NavBar/NavBar';
 import { Fragment } from 'react'; 
 import { motion } from "framer-motion";
-import Footer from '../../components/Footer/Footer';
 import MainTitle from '../../components/MainTitle/MainTitle';
 
 

@@ -9,7 +9,6 @@ import Sante from './views/Sante/Sante';
 import Actualite from './views/Actualites/Actualite';
 import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
-import Footer from './components/Footer/Footer';
 import Souverainete from './views/Souverainete/Souverainete';
 import Livres from './views/Livres/Livres';
 
@@ -36,7 +35,6 @@ function App() {
         <Route path='/Souverainete' element={<Souverainete />} />
         <Route path='/Livres' element={<Livres />} />
       </Routes>
-      <Footer />
     </div>
   );
 }
