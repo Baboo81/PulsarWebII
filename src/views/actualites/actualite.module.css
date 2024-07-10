@@ -14,12 +14,6 @@ section
     height: 2600px;
 }
 
-article
-{
-    height: 300px;
-    width: 100%;
-    border: 1px solid var(--gris);
-}
 
 .art1
 {
