@@ -70,7 +70,7 @@ const HomePage = () => {
                 </div>
                 <div className="row">
                     <MainTitle title="Une information de qualité" />
-                    <article className="justify-content-left p-4">
+                    <div className="justify-content-left p-4">
                         <div>
                             <img src="public/svg/guillemetsO.svg" alt="dessin de guillemets ouvrants" />
                         </div>
@@ -79,8 +79,8 @@ const HomePage = () => {
                         <div>
                             <img src="public/svg/guillemetsF.svg" alt="dessin de guillemets fermants" />
                         </div>
-                        <p className="text-muted">-- Fruit des recherches d'une chercheuse de vérité --</p>
-                    </article>
+                        <p className="text-muted p-4">-- Fruit des recherches d'une chercheuse de vérité --</p>
+                    </div>
                 </div>
             </div>
         </section>

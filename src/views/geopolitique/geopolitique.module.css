@@ -12,6 +12,12 @@ section
     height: 2600px;
 }
 
+article
+{
+    height: 300px;
+    width: 400px;
+    border: solid 1px var(--gris);
+}
 
 .art1
 {
@@ -28,10 +34,6 @@ section
     background: url(/public/img/géopolitique/ThierryMeyssan.svg) center center no-repeat;
 }
 
-.art4
-{
-    background: url() center center no-repeat;
-}
 
 .picto
 {
