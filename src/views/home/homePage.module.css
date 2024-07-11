@@ -18,7 +18,23 @@ section
 p
 {
     color: var(--grisF);
-    font-size: 1.8em;
+    font-size: 2em;
+}
+
+.guillemetsO
+{
+    background: url(/public/svg/guillemets/guillemetsO.svg);
+    height: 350px;
+    width: 350px;
+    margin-left: -20%;
+}
+
+.guillemetsF
+{
+    background: url(/public/svg/guillemets/guillemetsF.svg);
+    height: 350px;
+    width: 350px;
+    margin-left: 100%;
 }
 
 /*Média queries*/
