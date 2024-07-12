@@ -9,7 +9,7 @@ const Sante = () => { 
     return (
         <section>
             <div className="container">
-                <div className="row">
+                <div className="row justify-content-center">
                     <div className="p-5">
                         <MainTitle title= "La santé" />
                     </div>
@@ -36,7 +36,7 @@ const Sante = () => { 
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row justify-content-center">
                     <div className="col-md-4 p-4">
                         <article className={style.art3}>
 
@@ -60,7 +60,7 @@ const Sante = () => { 
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row justify-content-center">
                     <div className="col-md-4 p-4">
                         <article className={style.art5}>
 

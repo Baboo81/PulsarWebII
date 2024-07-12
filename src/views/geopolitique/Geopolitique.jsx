@@ -12,7 +12,7 @@ const Geopolitique = () => {
     return (
         <section>
             <div className="container">
-                <div className="row">
+                <div className="row justify-content-center">
                     <div className="p-5">
                         <MainTitle title= "La géopolitique" />
                     </div>
@@ -28,7 +28,7 @@ const Geopolitique = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row justify-content-center">
                     <div className="col-md-4 p-4">
                         <article className={style.art2}>
 
@@ -41,7 +41,7 @@ const Geopolitique = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row justify-content-center">
                     <div className="col-md-4 p-4">
                             <article className={style.art3}>
 

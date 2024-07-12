@@ -9,7 +9,7 @@ const Souverainete = () => { 
     return (
         <section>
             <div className="container">
-                <div className="row">
+                <div className="row justify-content-center">
                     <div className="p-5">
                         <MainTitle title= "La souveraineté" />
                     </div>
