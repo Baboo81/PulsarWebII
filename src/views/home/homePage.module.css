@@ -23,18 +23,20 @@ p
 
 .guillemetsO
 {
-    background: url(/public/svg/guillemets/guillemetsO.svg);
-    height: 350px;
-    width: 350px;
-    margin-left: -20%;
+    background: url(/public/svg/guillemets/guillemetsO.svg) no-repeat;
+    height: 120px;
+    width: 120px;
+    margin-left: -10%;
+    margin-bottom: -3%;
 }
 
 .guillemetsF
 {
-    background: url(/public/svg/guillemets/guillemetsF.svg);
-    height: 350px;
-    width: 350px;
+    background: url(/public/svg/guillemets/guillemetsF.svg) no-repeat;
+    height: 120px;
+    width: 120px;
     margin-left: 100%;
+    margin-top: -3%;
 }
 
 /*Média queries*/

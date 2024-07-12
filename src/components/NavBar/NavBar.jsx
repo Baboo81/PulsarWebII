@@ -6,8 +6,8 @@ const NavBar = () => (
 
     <nav className="navbar navbar-expand-lg p-3">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img className={style.logo} src="public/svg/logo/Logo.svg" alt="Logo du site"  />
+                <a class="navbar-brand logo" href="#">
+                    <img src="/public/svg/logo/InfoLiberLogo.svg" alt="Logo du site" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
