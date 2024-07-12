@@ -7,7 +7,7 @@ const NavBar = () => (
     <nav className="navbar navbar-expand-lg p-3">
             <div class="container-fluid">
                 <a class="navbar-brand logo" href="#">
-                    <img src="/public/svg/logo/InfoLiberLogo.svg" alt="Logo du site" />
+                    
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@ const NavBar = () => (
                         <Link to='/divers' class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Catégories
                         </Link>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <span class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <motion.div>
                                 <Link to='/Sante' class="dropdown-item" href="#">Santé</Link>
                             </motion.div>
@@ -37,7 +37,7 @@ const NavBar = () => (
                             <motion.div>
                                 <Link to='/Souverainete' class="dropdown-item" href="#">Souveraineté</Link>
                             </motion.div>
-                        </ul>
+                        </span>
                      </motion.div>
                      <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
                         <Link to='/Livres' class={style.links} aria-current="page" href="#">Livres</Link>

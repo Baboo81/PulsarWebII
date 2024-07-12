@@ -33,11 +33,14 @@ nav
 {
     height: 50px;
     width: 50px;
+    background: url(/public/svg/logo/InfoLiberLogo.svg);
 }
 
-.nav-item-dropdown
+span
 {
-    background-color: var(--rouge);
+    height: 6em;
+    width: 10em;
+    font-size: 1em !important;
 }
 
 /*Média queries*/
