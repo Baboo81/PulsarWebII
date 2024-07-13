@@ -12,28 +12,10 @@ section
     height: 2600px;
 }
 
-article
+.card
 {
-    height: 300px;
-    width: 400px;
-    border: solid 1px var(--gris);
+    width: 18rem;
 }
-
-.art1
-{
-    background: url(/public/img/géopolitique/IdrissAberkane.svg) center center no-repeat;
-}
-
-.art2
-{
-    background: url(/public/img/géopolitique/PierreHillard.svg) center center no-repeat;
-}
-
-.art3
-{
-    background: url(/public/img/géopolitique/ThierryMeyssan.svg) center center no-repeat;
-}
-
 
 .picto
 {
