@@ -14,37 +14,6 @@ section
     height: 2600px;
 }
 
-.art1
-{
-    background: url(/public/img/divers/EmaCrusi.svg) center center no-repeat;
-}
-
-.art2
-{
-    background: url(/public/img/divers/JjCrevecoeur.svg) center center no-repeat;
-}
-
-.art3
-{
-    background: url(/public/img/divers/IreneGrosjean.svg) center center no-repeat;
-}
-
-.art4
-{
-    background: url(/public/img/divers/Marie-SophieL.svg) center center no-repeat;
-}
-
-.art5
-{
-    background: url(/public/img/divers/ThierryCasasnovas.svg) center center no-repeat;
-}
-
-.art6
-{
-    background: url(/public/img/divers/Marie-SophieL.svg) center center no-repeat;
-}
-
-
 .picto
 {
     height: 300px;
