@@ -3,7 +3,7 @@ import style from './sante.module.css';
 import { motion } from "framer-motion";
 import MainTitle from '../../components/MainTitle/MainTitle';
 import EmaKrusi from './EmaKrusi.svg';
-import IreneGrosjean from './IreneGrosjean.svg';
+import NellyGrosjean from './NellyGrosjean.svg';
 import JjCrevecoeur from './JjCrevecoeur.svg';
 import MarieSophieL from './MarieSophieL.svg';
 import ThierryCasasnovas from './ThierryCasasnovas.svg';
@@ -30,7 +30,7 @@ const Sante = () => { 
                     </div>
                     <div className="col-md-4 p-4">
                         <div class="card">
-                            <img src={IreneGrosjean} class="card-img-top" alt="..." />
+                            <img src={NellyGrosjean} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
