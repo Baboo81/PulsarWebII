@@ -8,7 +8,14 @@ import MainTitle from '../../components/MainTitle/MainTitle';
 const Contact = () => {
     return (
         <section>
-
+            <div className="container">
+                <div className="row">
+                    <MainTitle title="Laissez un commentaire" /> 
+                    <div className="col-md-12">
+                        
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }
