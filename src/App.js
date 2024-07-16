@@ -10,6 +10,7 @@ import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import Souverainete from './views/Souverainete/Souverainete';
 import Livres from './views/Livres/Livres';
+import Contact from './views/Contact/Contact';
 
 
 
@@ -32,6 +33,7 @@ function App() {
         <Route path='/Actualite' element={<Actualite />} />
         <Route path='/Souverainete' element={<Souverainete />} />
         <Route path='/Livres' element={<Livres />} />
+        <Route path='/Contact' element={<Contact />} />
       </Routes>
     </div>
   );

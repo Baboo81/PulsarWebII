@@ -42,6 +42,9 @@ const NavBar = () => (
                      <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
                         <Link to='/Livres' class={style.links} aria-current="page" href="#">Livres</Link>
                     </motion.div>
+                    <motion.div class="nav-item mx-4 my-3" whileTap={{scale: 1.2}}>
+                        <Link to='/Contact' class={style.links} >Contact</Link>
+                    </motion.div> 
                 </ul>
             </div>
         </div>
