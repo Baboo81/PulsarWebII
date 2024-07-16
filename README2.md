@@ -1,4 +1,5 @@
-#Liste : Alexis Poulain, Senta Depuydt, Denis Rancourt, Christian Gerondeau, Karlzero, Pierre Barnerias, Youssef Hindi, Silvano Trotta, Robin Des Toits, Guy De La Fortelle, Dominique Belpomme, Patrick Jaulent, Ariane Bilheran.
+#Liste personne : Alexis Poulain, Senta Depuydt, Denis Rancourt, Christian Gerondeau, Karlzero, Pierre Barnerias, Youssef Hindi, Silvano Trotta, Robin Des Toits, Guy De La Fortelle, Dominique Belpomme, Patrick Jaulent, Ariane Bilheran.
+#Liste réseaux : CrowdBunker, Solidaritas, Solaris.
 #Sécuriser le site.
 #Contactez les protagonistes via Linkedin.
 #Création d'un logo.
