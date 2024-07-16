@@ -20,7 +20,7 @@ const Souverainete = () => { 
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="https://louisfouche.fr/" class="btn btn-primary">Go somewhere</a>
+                                <a href="https://louisfouche.fr/" class="btn btn-primary">Aller vers ce site</a>
                             </div>
                         </div>
                     </div>

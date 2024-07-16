@@ -11,3 +11,22 @@ section
 {
     height: 1600px;
 }
+
+.btnRed
+{
+    height: 3em;
+    width: 12em;
+    color: var(--rouge);
+    font-size: 1.2em !important;
+    font-weight: bold;
+    background-color: var(--yellow);
+    border-radius: 50px !important;
+    border: solid 2px var(--rouge);
+}
+
+.btnRed:hover
+{
+    background-color: var(--gris);
+    color: var(--noir);
+    border: solid 2px var(--noir);
+}

@@ -4,7 +4,7 @@ const Btn = function(props) {
     const  {url} = props;
 
     return (
-        <button>Aller vers ce site<a href={url}></a></button>
+        <a href={url}>Aller vers ce site</a>
     );
     
 }
