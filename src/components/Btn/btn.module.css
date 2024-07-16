@@ -9,7 +9,7 @@
     --rouge : #bf152d;
 }
 
-.btnRed
+button
 {
     height: 3em;
     width: 12em;
@@ -21,7 +21,7 @@
     border: solid 2px var(--rouge);
 }
 
-.btnRed:hover
+button:hover
 {
     background-color: var(--gris);
     color: var(--noir);
