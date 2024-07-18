@@ -7,4 +7,5 @@
 #Création d'un espace commentaire.
 #Explorer React Native.
 #SEO.
-#Ajouter une page : psychologie.jsx
+#Ajouter une page : psychologie.jsx.
+#Hébergement via Firebase.
