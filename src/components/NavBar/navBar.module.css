@@ -17,7 +17,7 @@ nav
     font-family: "Bodoni Moda", serif;
     font-size: 2em;
     font-weight: 400;
-    border-bottom: solid .5px var(--gris);
+    border-bottom: solid 1px transparent;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-bottom: 100px !important;
 }
@@ -26,7 +26,7 @@ nav
 {
     color: var(--rouge);
     text-decoration: none;
-    padding: 110px;
+    
 }
 
 .logo
@@ -38,7 +38,7 @@ nav
 
 span
 {
-    height: 6em;
+    height: 10em;
     width: 10em;
     font-size: 1em !important;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;

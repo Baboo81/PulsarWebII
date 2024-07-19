@@ -17,17 +17,17 @@ const NavBar = () => (
                     <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
                         <Link to='/Home' class={style.links} aria-current="page" href="#">Accueil</Link>
                     </motion.div>
-                    <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
-                        <Link to='/Geopolitique' class={style.links} aria-current="page" href="#">Géopolitique</Link>
-                    </motion.div>
-                    <motion.div class="nav-item  mx-4  my-3" whileTap={{scale: 1.2}}>
-                        <Link to='/Economie' class={style.links} aria-current="page" href="#">Économie</Link>
-                    </motion.div>
                     <motion.div class="nav-item dropdown" whileTap={{scale: 1.2}}>
                         <Link to='/divers' class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Catégories
                         </Link>
                         <span class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <motion.div>
+                                <Link to='/Geopolitique' class="dropdown-item" aria-current="page" href="#">Géopolitique</Link>
+                            </motion.div>
+                            <motion.div>
+                                <Link to='/Economie' class="dropdown-item" aria-current="page" href="#">Économie</Link>
+                            </motion.div>
                             <motion.div>
                                 <Link to='/Sante' class="dropdown-item" href="#">Santé</Link>
                             </motion.div>
