@@ -15,7 +15,7 @@ const Actualite = () => { 
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="p-5">
-                        <MainTitle title= "L'actualité" />
+                        <MainTitle title= "Actualités" />
                     </div>
                     <div className="col-md-4 p-4">
                         <div class="card">

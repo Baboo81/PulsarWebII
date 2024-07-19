@@ -13,7 +13,7 @@ const Economie = () => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="p-5">
-                        <MainTitle title="L'économie" />
+                        <MainTitle title="Économie" />
                     </div>
                     <div className="col-md-4 p-4">
                         <div class="card">
