@@ -38,6 +38,12 @@ h5
     font-size: 2em !important;
 }
 
+p
+{
+    font-size: 1.2em;
+    text-align: start;
+}
+
 /*Média queries*/
 /*Pour les mobiles, à largeur d'ecran inférieur à 480px :*/
 
