@@ -2,9 +2,12 @@
 {
     --noir : #050000;
     --gris : #c2b3b0;
+    --grisBis : #bdbdbd; 
     --roseP : #ffc3bb;
     --roseF : #ff8e96;
+    --orange : #ffab91;
     --rouge : #bf152d;
+    --bleu : #bbdefb;
 }
 
 section
@@ -12,12 +15,21 @@ section
     height: 2600px;
 }
 
+.BackGround
+{
+    height: 20em;
+    width: 20em;
+    position: relative;
+    right: 50%;
+    top: 0%;
+}
+
 .card
 {
     border-radius: 1%;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     padding: 4%;
-    background-color: var(--gris);
+    background-color: var(--bleu);
 }
 
 .card:hover
