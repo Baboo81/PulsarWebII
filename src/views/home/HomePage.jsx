@@ -59,7 +59,7 @@ const HomePage = () => {
                     
                     </div>
                     <div class="col-md-6 p-3 text-start">
-                        <motion.p initial={{x: 0, opacity: 0}} animate={{x: 100, opacity: 1}}>
+                        <motion.p className={style.FontSize} initial={{x: 0, opacity: 0}} animate={{x: 100, opacity: 1}}>
                             {skills.map(skill => (
                                 <li key={skill}> {skill} </li>
                                 )
@@ -71,10 +71,10 @@ const HomePage = () => {
                     <MainTitle title="Une information de qualité" />
                     <div className="justify-content-left p-4">
                         <div className={style.guillemetsO}></div>
-                        <motion.p className="text-muted">Info Liber a pour objectif d'apporter un nouvel angle de vue sur des thématiques qui sont de nos jours tronquées par les médias de masse. La sélection des différentes plateformes est basée sur des critères tels que ; l'honnêteté intellectuelle mais aussi sur l'intégrité de ces auteurs. Á l'heure actuelle les médias subventionnées ne jouissent plus de l'indépendance dont ils devraient être garants, d'où l'intérêt d'avoir mis sur pied ce site qui vous permettra de découvrir une série de sites qui oeuvre dans le sens de la souveraineté intellectuelle et du libre arbitre.
+                        <motion.p className={style.FontSize}>Info Liber a pour objectif d'apporter un nouvel angle de vue sur des thématiques qui sont de nos jours tronquées par les médias de masse. La sélection des différentes plateformes est basée sur des critères tels que ; l'honnêteté intellectuelle mais aussi sur l'intégrité de ces auteurs. Á l'heure actuelle les médias subventionnées ne jouissent plus de l'indépendance dont ils devraient être garants, d'où l'intérêt d'avoir mis sur pied ce site qui vous permettra de découvrir une série de plateforme qui oeuvre dans le sens de la souveraineté intellectuelle et du libre arbitre.
                         </motion.p>
                         <div className={style.guillemetsF}></div>
-                        <p className="text-muted">-- <i>Fruit des recherches d'une chercheuse de vérité</i> --</p>
+                        <p className={style.FontSize}>-- <i>Fruit des recherches d'une chercheuse de vérité</i> --</p>
                     </div>
                 </div>
             </div>

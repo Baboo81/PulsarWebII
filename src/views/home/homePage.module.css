@@ -15,10 +15,10 @@ section
     height: 1200px;
 }
 
-p
+.FontSize
 {
-    color: var(--grisF);
     font-size: 2em !important;
+    color: var(--gris);
 }
 
 .guillemetsO
