@@ -51,7 +51,7 @@ const Geopolitique = () => {
                             <img src={ThierryMeyssan} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title mb-3 p-3">Consultant politique</h5>
-                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-muted">Thierry.M .</p>
                                 <div className="d-grid gap-2">
                                     <a href="https://www.voltairenet.org/" class="btn btn-outline-danger">Aller vers ce site</a>
                                 </div>
@@ -64,7 +64,7 @@ const Geopolitique = () => {
                         <div class= {style.card} >
                             <img src={PierreHillard} class="card-img-top" alt="..." />
                             <div class="card-body">
-                                <h5 class="card-title mb-3">Pierre Hillard</h5>
+                                <h5 class="card-title mb-3">Dr en science politique & essayiste</h5>
                                 <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div className="d-grid gap-2">
                                     <a href="https://scanderia.com/" class="btn btn-outline-danger">aller vers ce site</a>
