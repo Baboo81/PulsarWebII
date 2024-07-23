@@ -21,6 +21,7 @@ const Geopolitique = () => {
                     <div className="p-5">
                         <MainTitle title= "Géopolitique" />
                     </div>
+                    <hr />
                     <div className="col-md-5 p-4">
                         <div class= {style.card} >
                             <img src={IdrissAberkane} class="card-img-top rounded" alt="..." />

@@ -1,12 +1,13 @@
 import style from './navBar.module.css';
 import { Link, link } from "react-router-dom";
 import { motion } from "framer-motion";
+import InfoLiberLogo from './InfoLiberLogo.svg';
 
 const NavBar = () => (
 
     <nav className="navbar navbar-expand-lg p-3">
             <div class="container-fluid">
-                <a class="navbar-brand logo" href="#">
+                <a class="navbar-brand" src={InfoLiberLogo}>
                     
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

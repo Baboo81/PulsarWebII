@@ -29,13 +29,6 @@ nav
     
 }
 
-.logo
-{
-    height: 50px;
-    width: 50px;
-    background: url(/public/svg/logo/InfoLiberLogo.svg);
-}
-
 span
 {
     height: 10em;
