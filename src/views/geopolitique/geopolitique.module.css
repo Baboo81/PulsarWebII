@@ -24,6 +24,12 @@ section
     top: 0%;
 }
 
+hr
+{
+    color: var(--rouge) !important;
+    
+}
+
 .card
 {
     border-radius: 1%;
