@@ -1,4 +1,4 @@
-#Liste personne : Alexis Poulain, Senta Depuydt, Denis Rancourt, Christian Gerondeau, Karlzero, Youssef Hindi, Silvano Trotta, Robin Des Toits, Guy De La Fortelle, Dominique Belpomme, Patrick Jaulent, Ariane Bilheran, Jacqueline Roche, Jean-Pierre Petit.
+#Liste personne : Alexis Poulain, Senta Depuydt, Denis Rancourt, Christian Gerondeau, Karlzero, Youssef Hindi, Silvano Trotta, Robin Des Toits, Guy De La Fortelle, Dominique Belpomme, Patrick Jaulent, Ariane Bilheran, Jacqueline Roche, Jean-Pierre Petit, Slobodan Despot.
 #Sites : L'Agora, btlv, NuréaTV, Les Belges se réveillent.
 #Liste réseaux : CrowdBunker, Solidaritas, Solaris, Le média 4-4-2.
 #Sécuriser le site.
