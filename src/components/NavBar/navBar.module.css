@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
-
+/*
 :root
 {
     --blanc : #ffffff;
@@ -10,15 +10,14 @@
     --roseF : #ff8e96;
     --rouge : #bf152d;
 }
-
+*/
+/*
 nav
 {
     background-color: var(--blanc);
     font-family: "Bodoni Moda", serif;
     font-size: 2em;
     font-weight: 400;
-    border-bottom: solid 1px transparent;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-bottom: 100px !important;
 }
 
@@ -26,7 +25,6 @@ nav
 {
     color: var(--rouge);
     text-decoration: none;
-    
 }
 
 span
@@ -36,10 +34,11 @@ span
     font-size: 1em !important;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-
+*/
 /*Média queries*/
 /*Pour les mobiles, à largeur d'ecran inférieur à 480px :*/
 
+/*
 @media only screen and (max-width : 480px)
 {
     button.navbar-toggler
@@ -54,6 +53,7 @@ span
     }
 }
 
+*/
 /*Pour les tablettes :*/
 
 @media only screen and (min-width : 481px) and (max-width : 810px)

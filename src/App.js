@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
+import NavBar2 from './components/NavBar2/NavBar2';
 import HomePage from './views/Home/HomePage';
 import Geopolitique from './views/Geopolitique/Geopolitique';
 import Economie from './views/Economie/Economie';
@@ -23,7 +23,7 @@ import Contact from './views/Contact/Contact';
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <NavBar2 />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/Home' element={<HomePage />} />
