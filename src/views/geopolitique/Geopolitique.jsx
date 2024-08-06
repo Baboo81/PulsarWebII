@@ -17,7 +17,7 @@ const Geopolitique = () => {
         <section>
             <div className="container">
                 <div className="row justify-content-center">
-                    <img src={BackGround} alt=""  className= {style.BackGround} />
+                    <img src="" alt=""  className="" />
                     <div className="p-5">
                         <MainTitle title= "Géopolitique" />
                     </div>
