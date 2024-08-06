@@ -36,8 +36,13 @@ section
 
 .FontSize
 {
+    font-size: 1.8em !important;
+}
+
+.FontStyle
+{
     font-size: 2em !important;
-    color: var(--gris);
+    color: var(--blanc);
 }
 
 .guillemetsO

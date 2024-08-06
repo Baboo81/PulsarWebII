@@ -43,10 +43,11 @@ const HomePage = () => {
     return (
     
         <section>
-            <div class="container">
+            <div class="container-expand-lg">
                 <div class="row p-5" className={style.header}>
-                    <motion.div class="col-md-4 p-4" animate={{
+                    <motion.div class="col-md-2 p-4" animate={{
                         x: 0,
+                        y: 350,
                         backgroundColor: "#bf152d",
                         transitionEnd: {
                             display: "non",
@@ -55,11 +56,9 @@ const HomePage = () => {
                         <Title color="#fff" fontSize="10em" fontFamily="Bodoni Moda"  />
                         <Title2 color="#fff" fontSize="6em" fontFamily="Bodoni Moda" />
                     </motion.div>
-                    <div className="col-md-2">
-                    
-                    </div>
-                    <div class="col-md-6 p-3 text-start">
-                        <motion.p className={style.FontSize} initial={{x: 0, opacity: 0}} animate={{x: 100, opacity: 1}}>
+                  
+                    <div class="col-md-4 p-3">
+                        <motion.p className={style.FontStyle} initial={{x: 600, opacity: 0}} animate={{x: 700, x: 800, x: 900, opacity: 1}}>
                             {skills.map(skill => (
                                 <li key={skill}> {skill} </li>
                                 )
@@ -69,7 +68,10 @@ const HomePage = () => {
                 </div>
                 <div className="row">
                     <MainTitle title="Une information de qualité" />
-                    <div className="justify-content-left p-4">
+                    <div className="col-md-3">
+
+                    </div>
+                    <div className="col-md-6 text-muted">
                         <div className={style.guillemetsO}></div>
                         <motion.p className={style.FontSize}>Info Liber a pour objectif d'apporter un nouvel angle de vue sur des thématiques qui sont de nos jours tronquées par les médias de masse. La sélection des différentes plateformes est basée sur des critères tels que ; l'honnêteté intellectuelle mais aussi sur l'intégrité de ces auteurs. Á l'heure actuelle les médias subventionnées ne jouissent plus de l'indépendance dont ils devraient être garants, d'où l'intérêt d'avoir mis sur pied ce site qui vous permettra de découvrir une série de plateforme qui oeuvre dans le sens de la souveraineté intellectuelle et du libre arbitre.
                         </motion.p>

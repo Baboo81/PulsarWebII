@@ -20,9 +20,6 @@ const NavBar2 = () => (
                 <li class="nav-item p-4">
                     <Link to='/Home' class="nav-link active" aria-current="page" href="#">Accueil</Link>
                 </li>
-                <li class="nav-item p-4">
-                    <a class="nav-link" href="#">Livres</a>
-                </li>
                 <li class="nav-item dropdown p-4">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                          Catégories
@@ -48,6 +45,12 @@ const NavBar2 = () => (
                         </li>
                         <li><a class="dropdown-item" href="#">Contact</a></li>
                     </ul>
+                </li>
+                <li class="nav-item p-4">
+                    <Link to='/Livres' class="nav-link" href="#">Livres</Link>
+                </li>
+                <li class="nav-item p-4">
+                    <Link to='/Contact' class="nav-link" href="#">Contact</Link>
                 </li>
             </ul>
             <form class="d-flex mt-3 mb-3" role="search">
