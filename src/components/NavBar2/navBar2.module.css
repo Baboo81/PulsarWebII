@@ -1,0 +1,30 @@
+:root
+{
+    --noir : #050000;
+    --gris : #c2b3b0;
+    --grisBis : #bdbdbd; 
+    --roseP : #ffc3bb;
+    --roseF : #ff8e96;
+    --orange : #ffab91;
+    --rouge : #bf152d;
+    --bleu : #bbdefb;
+}
+
+nav
+{
+    height: 150px;
+    font-size: 1.25em;
+}
+
+.navbar-toggler
+{
+    background-color: var(--rouge);
+    border: none;
+    font-size: 1.25em;
+}
+
+.navbar-toggler:focus
+{
+    box-shadow: none;
+    outline: none;
+}
