@@ -18,18 +18,31 @@ const NavBar2 = () => (
         <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <Link to='/Home' class="nav-link active" aria-current="page" href="#">Accueil</Link>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                         Dropdown
+                         Catégories
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <Link to='/Geopolitique' class="dropdown-item" href="#">Géopolitique</Link>
+                        </li>
+                        <li>
+                            <Link to='/Economie' class="dropdown-item" href="#">Économie</Link>
+                        </li>
+                        <li>
+                            <Link to='/Sante' class="dropdown-item" href="#">Santé</Link>
+                        </li>
+                        <li>
+                            <Link to='/Actualite' class="dropdown-item" href="#">Actualité</Link>
+                        </li>
+                        <li>
+                            <Link to='/Souverainete' class="dropdown-item" href="#">Souveraineté</Link>
+                        </li>
                         <li>
                             <hr class="dropdown-divider" />
                         </li>
