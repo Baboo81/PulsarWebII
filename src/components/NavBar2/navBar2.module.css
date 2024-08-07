@@ -20,7 +20,22 @@ nav
     font-weight: bold;
     background-color: var(--bleuRoi);
     margin: 20px;
-    border-radius: 18px;
+    border-radius: 20px;
+    opacity: 85%;
+    /*animation: navColors 6s infinite;*/
+}
+
+@keyframes navColors
+{
+    from 
+        {
+            background-color: var(--bleu);
+        }
+    
+    to 
+        {
+            background-color: var(--bleuRoi);
+        }
 }
 
 li
