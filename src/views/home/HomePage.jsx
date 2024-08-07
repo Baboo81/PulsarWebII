@@ -48,7 +48,7 @@ const HomePage = () => {
                     <motion.div class="col-md-2 p-4" animate={{
                         x: 0,
                         y: 350,
-                        backgroundColor: "#bf152d",
+                        backgroundColor: "#4169e1",
                         transitionEnd: {
                             display: "non",
                         }

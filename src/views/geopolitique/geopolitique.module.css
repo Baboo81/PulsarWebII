@@ -6,28 +6,15 @@
     --roseP : #ffc3bb;
     --roseF : #ff8e96;
     --orange : #ffab91;
-    --rouge : #bf152d;
     --bleu : #bbdefb;
+    --bleuRoi : #4169e1;
 }
+
 
 section
 {
     height: 2600px;
-}
-
-.BackGround
-{
-    height: 30px;
-    width: 10px;
-    position: relative;
-    right: 50%;
-    top: 0%;
-}
-
-hr
-{
-    color: var(--rouge) !important;
-    
+    background-color: var(--bleuRoi);
 }
 
 .card
