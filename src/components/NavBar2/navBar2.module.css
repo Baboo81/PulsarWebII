@@ -7,9 +7,7 @@
     --noir : #050000;
     --gris : #c2b3b0;
     --grisF : #1b1b1b;
-    --roseP : #ffc3bb;
-    --roseF : #ff8e96;
-    --orange : #ff6000;
+    --orange : #ff5e37;
     --bleu : #bbdefb;
     --bleuRoi : #4169e1;
 }
@@ -18,12 +16,36 @@ nav
 {
     height: 100px;
     font-family: "Bodoni Moda", serif;
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
-    background: var(--orange);
+    background-color: var(--bleuRoi);
     margin: 20px;
-    border-radius: 16px;
-    padding: 1.5rem;
+    border-radius: 18px;
+    opacity: 80%;
+}
+
+li
+{
+    border-bottom: 2px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+li:hover
+{
+    padding-bottom: 10px;
+    border-bottom-color: var(--bs-teal);
+}
+
+form
+{
+    height: 2em;
+}
+
+form button
+{
+    height: 2em;
+    width: 6em;
+    font-size: 1em !important;
 }
 
 span
@@ -32,6 +54,11 @@ span
     width: 11em;
     font-size: 1em !important;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.fontNav
+{
+    color: var(--blanc);
 }
 
 
