@@ -21,7 +21,6 @@ nav
     background-color: var(--bleuRoi);
     margin: 20px;
     border-radius: 18px;
-    opacity: 80%;
 }
 
 li
@@ -61,4 +60,8 @@ span
     color: var(--blanc);
 }
 
-
+.logo
+{
+    height: 7vh;
+    width: 7vw;
+}
