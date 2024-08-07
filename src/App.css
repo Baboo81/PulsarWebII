@@ -1,9 +1,13 @@
 :root
 {
-    --noir : #08091b;
-    --bleu : #6486ac;
-    --gris : #c0bfc4;
-    --beige : #eedfc2;
+  --blanc : #ffffff;
+  --noir : #050000;
+  --gris : #c2b3b0;
+  --grisF : #1b1b1b;
+  --roseP : #ffc3bb;
+  --roseF : #ff8e96;
+  --bleu : #bbdefb;
+  --bleuRoi : #4169e1;
 }
 
 .App {
@@ -13,6 +17,7 @@
 body
 {
   overflow-x: hidden;
+  background-color: var(--bleuRoi) !important;
 }
 
 

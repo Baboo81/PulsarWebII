@@ -24,7 +24,7 @@ const NavBar2 = () => (
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                          Catégories
                     </a>
-                    <ul class="dropdown-menu">
+                    <span class="dropdown-menu">
                         <li>
                             <Link to='/Geopolitique' class="dropdown-item" href="#">Géopolitique</Link>
                         </li>
@@ -44,7 +44,7 @@ const NavBar2 = () => (
                             <hr class="dropdown-divider" />
                         </li>
                         <li><a class="dropdown-item" href="#">Contact</a></li>
-                    </ul>
+                    </span>
                 </li>
                 <li class="nav-item p-4">
                     <Link to='/Livres' class="nav-link" href="#">Livres</Link>

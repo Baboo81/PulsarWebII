@@ -6,24 +6,25 @@
     --grisF : #1b1b1b;
     --roseP : #ffc3bb;
     --roseF : #ff8e96;
-    --rouge : #bf152d;
+    --bleu : #bbdefb;
+    --bleuRoi : #4169e1;
 }
 
 button
 {
     height: 3em;
     width: 12em;
-    color: var(--rouge);
+    color: var(--blanc);
     font-size: 1.2em !important;
     font-weight: bold;
     background-color: var(--yellow);
     border-radius: 50px !important;
-    border: solid 2px var(--rouge);
+    border: solid 2px var(--blanc);
 }
 
 button:hover
 {
-    background-color: var(--gris);
-    color: var(--noir);
-    border: solid 2px var(--noir);
+    background-color: var(--bleuRoi);
+    color: var(--bleu);
+    border: solid 2px var(--bleu);
 }
