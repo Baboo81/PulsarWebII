@@ -67,6 +67,10 @@ section
     margin-top: -3%;
 }
 
+.sign
+{
+    margin-left: 18%;
+}
 /*Média queries*/
 /*Pour les mobiles, à largeur d'ecran inférieur à 480px :*/
 

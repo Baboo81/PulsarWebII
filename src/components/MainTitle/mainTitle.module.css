@@ -2,16 +2,19 @@
 
 :root
 {
+    --blanc : #ffffff;
     --noir : #050000;
     --gris : #c2b3b0;
+    --grisF : #1b1b1b;
     --roseP : #ffc3bb;
     --roseF : #ff8e96;
-    --rouge : #bf152d;
+    --bleu : #bbdefb;
+    --bleuRoi : #4169e1;
 }
 
 h1
 {
-    color: var(--gris);
+    color: var(--blanc);
     font-size: 5em !important;
     font-family: "Nanum Myeongjo", serif;
     margin-top: 80px !important;

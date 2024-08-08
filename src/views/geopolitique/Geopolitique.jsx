@@ -1,5 +1,5 @@
 import style from './geopolitique.module.css';
-import NavBar from '../../components/NavBar/NavBar';
+import NavBar2 from '../../components/NavBar2/NavBar2';
 import { Fragment } from 'react';
 import { motion } from "framer-motion";
 import Slider from '../../components/Slider/Slider';
