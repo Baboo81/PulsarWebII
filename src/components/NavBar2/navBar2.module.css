@@ -6,10 +6,12 @@
     --blanc : #ffffff;
     --noir : #050000;
     --gris : #c2b3b0;
+    --grisTaupe : #8e8d8a;
     --grisF : #1b1b1b;
     --orange : #ff5e37;
     --bleu : #bbdefb;
     --bleuRoi : #4169e1;
+    --violet : #431f4b;
 }
 
 nav
@@ -18,10 +20,11 @@ nav
     font-family: "Bodoni Moda", serif;
     font-size: 1.7em;
     font-weight: bold;
-    background-color: var(--bleuRoi);
+    background-color: var(--bleu);
     margin: 20px;
     border-radius: 20px;
     opacity: 85%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     /*animation: navColors 6s infinite;*/
 }
 
