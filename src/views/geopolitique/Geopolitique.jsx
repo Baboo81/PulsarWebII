@@ -58,7 +58,7 @@ const Geopolitique = () => {
                 <div className="row justify-content-center">
                     <div className="col-md-5 p-4">
                         <div class= {style.card} >
-                            <img src={PierreHillard} class="card-img-top rounded" alt="..." />
+                            <img src={PierreHillard} class="card-img-top rounded" alt="Image représentant une magnifique bibliothèque" />
                             <div class="card-body">
                                 <h5 class="card-title mb-3 p-3">Dr en science politique, essayiste & conférencier</h5>
                                 <p class="card-text text-muted">Pierre Hillard est un spécialiste du "mondialisme", il développe cette thématique complexe avec beaucoup de pédagogie et de clareté, il est l'auteur de plusieurs livres, vous pourrez trouver dans la section livres du site quelques références.</p>

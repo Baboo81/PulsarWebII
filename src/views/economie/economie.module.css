@@ -15,21 +15,41 @@ section
     height: 1600px;
 }
 
-.btnRed
+.card
 {
-    height: 3em;
-    width: 12em;
-    color: var(--rouge);
-    font-size: 1.2em !important;
-    font-weight: bold;
-    background-color: var(--yellow);
-    border-radius: 50px !important;
-    border: solid 2px var(--rouge);
+    border-radius: 1%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    padding: 4%;
+    background-color: var(--bleu);
 }
 
-.btnRed:hover
+.card:hover
 {
-    background-color: var(--gris);
-    color: var(--noir);
-    border: solid 2px var(--noir);
+    transform: scale(1.04);
+    transition: transform 330ms ease-in;
+}
+
+.card-img-top
+{
+    height: 100%;
+    width: 100%;
+}
+
+h5
+{
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: bold !important;
+    font-size: 2em !important;
+}
+
+p
+{
+    font-size: 1em !important;
+    text-align: start;
+}
+
+.icon
+{
+    height: 3em;
+    width: 3em;
 }
