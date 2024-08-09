@@ -1,35 +1,39 @@
 import style from './slider.module.css';
 import { motion } from "framer-motion";
 import CarouselSlider from 'react-carousel-slider';
+import Livre1 from './Geopolitique/IdrissA/Livre1.png';
+import Livre2 from './Geopolitique/IdrissA/Livre2.png';
+import Livre3 from './Geopolitique/IdrissA/Livre3.png';
 
 
 
 let data = [
   {
     desc: "1",
-    imgSrc: 'Livre1.png'
+    imgSrc: "./Geopolitique/IdrissA/Livre1.png"
   },
   {
     desc: "2",
-    imgSrc: "./public/img/livres/IdrissA/Livre2.png"
+    imgSrc: "./Geopolitique/IdrissA/Livre2.png"
   },
   {
     desc: "3",
-    imgSrc: "./public/img/livres/IdrissA/Livre3.png"
+    imgSrc: "./Geopolitique/IdrissA/Livre3.png"
   },
   {
     desc: "4",
-    imgSrc: "./public/img/livres/IdrissA/Livre2.png"
+    imgSrc: "./Geopolitique/IdrissA/Livre1.png"
   },
   {
     desc: "5",
-    imgSrc: ""
+    imgSrc: "./Geopolitique/IdrissA/Livre1.png"
   }
 ];
 
 let sliderBoxStyle = {
   height: "550px",
-  background: "transparent"
+  background: "transparent",
+  border: "solid 5px #bbdefb" 
 };
 
 let itemsStyle = {

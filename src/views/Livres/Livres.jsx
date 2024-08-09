@@ -4,6 +4,7 @@ import { Fragment } from 'react';
 import { motion } from "framer-motion";
 import MainTitle from '../../components/MainTitle/MainTitle';
 import Slider from '../../components/Slider/Slider';
+import Slider2 from '../../components/Slider2/Slider2';
 
 const Livres = () => {
     return (
@@ -14,6 +15,7 @@ const Livres = () => {
                     <div className="col-md-12 p-5">
                         <div className="p-5">
                             <Slider />
+                            <Slider2 />
                         </div>
                     </div>
                 </div>
