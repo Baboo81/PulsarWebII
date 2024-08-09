@@ -10,11 +10,11 @@ import Livre3 from './Geopolitique/IdrissA/Livre3.png';
 let data = [
   {
     desc: "1",
-    imgSrc: "./Geopolitique/IdrissA/Livre1.png"
+    imgSrc: `${Livre1}`
   },
   {
     desc: "2",
-    imgSrc: "./Geopolitique/IdrissA/Livre2.png"
+    imgSrc: `${Livre1}`
   },
   {
     desc: "3",

@@ -13,8 +13,10 @@ const Livres = () => {
                 <div className="row">
                     <MainTitle title="Les références" />
                     <div className="col-md-12 p-5">
+
+                    </div>
+                    <div className="col-md-12 p-5">
                         <div className="p-5">
-                            <Slider />
                             <Slider2 />
                         </div>
                     </div>
