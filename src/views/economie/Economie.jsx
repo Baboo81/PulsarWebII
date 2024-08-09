@@ -1,6 +1,5 @@
 import style from './economie.module.css';
 import { motion } from "framer-motion";
-import Slider from '../../components/Slider/Slider';
 import MainTitle from '../../components/MainTitle/MainTitle';
 import Btn from '../../components/Btn/Btn';
 import PierreChaillot from './PierreChaillot.svg';

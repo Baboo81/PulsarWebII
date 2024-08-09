@@ -3,7 +3,6 @@ import NavBar2 from '../../components/NavBar2/NavBar2';
 import { Fragment } from 'react'; 
 import { motion } from "framer-motion";
 import MainTitle from '../../components/MainTitle/MainTitle';
-import Slider from '../../components/Slider/Slider';
 import Slider2 from '../../components/Slider2/Slider2';
 
 const Livres = () => {

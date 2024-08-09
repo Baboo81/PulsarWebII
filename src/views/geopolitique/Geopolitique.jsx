@@ -2,7 +2,6 @@ import style from './geopolitique.module.css';
 import NavBar2 from '../../components/NavBar2/NavBar2';
 import { Fragment } from 'react';
 import { motion } from "framer-motion";
-import Slider from '../../components/Slider/Slider';
 import TitleMain from '../../components/MainTitle/MainTitle';
 import Btn from '../../components/Btn/Btn';
 import MainTitle from '../../components/MainTitle/MainTitle';

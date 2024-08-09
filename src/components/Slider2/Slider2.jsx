@@ -27,10 +27,17 @@ const Slider2 = () => {
     ]
     return (
 
-        <Carousel>
+        <Carousel
+            thumbWidth={120}
+            showStatus={false}
+        >
             {data.map (slide => 
                 <div key={slide.id}>
                     <img src={slide.img} alt="" />
+                    <div className={style.overlay}>
+                        <h2 className={style.overlay_title}>{slide.title}</h2>
+                        <p className={style.overlay_text}>{slide.txt}</p>
+                    </div>
                 </div>
             )}
         </Carousel>
