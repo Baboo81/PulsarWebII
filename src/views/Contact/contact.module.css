@@ -1,0 +1,29 @@
+:root
+{
+    --blanc : #ffffff;
+    --noir : #050000;
+    --gris : #c2b3b0;
+    --grisF : #1b1b1b;
+    --roseP : #ffc3bb;
+    --roseF : #ff8e96;
+    --bleu : #bbdefb;
+    --bleuRoi : #4169e1;
+}
+
+section
+{
+    height: 1600px;
+}
+
+textarea
+{
+    background-color: var(--bleu);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+::placeholder
+{
+    text-align: center;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 1.8em;
+}

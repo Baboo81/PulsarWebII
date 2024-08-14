@@ -11,10 +11,12 @@ const Contact = () => {
         <section>
             <div className="container">
                 <div className="row">
-                    <MainTitle title="Laissez un commentaire" /> 
+                    <div className="p-5 mt-5">
+                        <MainTitle title="Laissez un commentaire" /> 
+                    </div>
                     <div className="col-md-12">
                         <div className="p-5">
-                            <textarea name="" id="textarea" rows={10} cols={60}></textarea>
+                            <textarea className="rounded-4" name="" placeholder='Ajoutez un commentaire' id="textarea" rows={10} cols={60}></textarea>
                         </div>
                         <div className="p-3">
                             <Btn title="Envoyer" />
