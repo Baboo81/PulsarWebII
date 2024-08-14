@@ -16,10 +16,10 @@ const Economie = () => {
                     </div>
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
-                            <img src={PierreChaillot} class="card-img-top" alt="Image représentant des courbes sur un graphique" />
-                            <div class="card-body">
+                            <img src={PierreChaillot} class="card-img-top rounded" alt="Image représentant des courbes sur un graphique" />
+                            <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Statisticien</h5>
-                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-muted p-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div className="d-grid gap-2">
                                     <a href="https://www.youtube.com/channel/UCX6iYvJWGOQfGsFo2KSSm-w" class="btn btn-outline-primary">Aller vers le site: Décoder l'éco</a>
                                 </div>
@@ -30,10 +30,10 @@ const Economie = () => {
                 <div className="row justify-content-center">
                     <div className="col-md-5 p-4">
                     <div class={style.card}>
-                            <img src={PierreJovanovic} class="card-img-top" alt="Image représentant un livre ouvert en éventail" />
-                            <div class="card-body">
+                            <img src={PierreJovanovic} class="card-img-top rounded" alt="Image représentant un livre ouvert en éventail" />
+                            <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Journaliste & essayiste</h5>
-                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-muted p-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div className="d-grid gap-2">
                                     <a href="https://jovanovic.com/" class="btn btn-outline-primary">Aller vers le site officielle de Pierre</a>
                                 </div>
