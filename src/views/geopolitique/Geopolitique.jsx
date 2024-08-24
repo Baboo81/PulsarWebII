@@ -17,7 +17,7 @@ const Geopolitique = () => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="p-5 mt-5">
-                        <MainTitle title= "Géopolitique" />
+                        <MainTitle title= "Géopolitique" className="box" id="box1" />
                     </div>
                     <div className="col-md-5 p-4">
                         <div class= {style.card} >

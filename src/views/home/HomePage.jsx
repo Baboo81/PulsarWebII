@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import MainTitle from '../../components/MainTitle/MainTitle';
 
 
+
 const title = "Info";
 const title2 = "LIBER";
 const skills = [
@@ -67,7 +68,7 @@ const HomePage = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <MainTitle title="Une information de qualité" />
+                    <MainTitle title="Une information de qualité"className="box" id="box1"/>
                     <div className="col-md-3">
 
                     </div>

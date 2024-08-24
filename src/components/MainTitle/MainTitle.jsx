@@ -1,7 +1,10 @@
 import style from './mainTitle.module.css';
 import { motion } from 'framer-motion';
 
+
+
 const MainTitle = (props) => {
+
     const { title } = props;
 
 

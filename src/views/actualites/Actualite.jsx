@@ -9,13 +9,14 @@ import PierreBarnerias from './PierreBarnerias.svg';
 
 
 
+
 const Actualite = () => { 
     return (
         <section>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="p-5">
-                        <MainTitle title= "Actualités" />
+                        <MainTitle title= "Actualités" className="box" id="box1" />
                     </div>
                     <div className="col-md-4 p-4">
                         <div class="card">

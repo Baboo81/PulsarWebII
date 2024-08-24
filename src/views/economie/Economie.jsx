@@ -7,12 +7,14 @@ import PierreJovanovic from './PierreJovanovic.svg';
 
 
 const Economie = () => { 
+
+
     return (
         <section>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="p-5 mt-5">
-                        <MainTitle title="Économie" />
+                        <MainTitle title="Économie" className="box" id="box1" />
                     </div>
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
