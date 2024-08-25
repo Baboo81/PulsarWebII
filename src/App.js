@@ -11,38 +11,11 @@ import { Routes } from 'react-router-dom';
 import Souverainete from './views/Souverainete/Souverainete';
 import Livres from './views/Livres/Livres';
 import Contact from './views/Contact/Contact';
-import { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
-
-
-
-//Instanciation gsap:
-gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
-
-
 
 
 
 function App() {
 
-  const slideInTop = (elem, delay, duration) => {
-    gsap.fromTo(
-        {
-            opacity: 0,
-            y: -200
-        },
-        {
-            opacity: 1,
-            y: 0,
-        }
-    )
-}
-
-useEffect(() => {
-    slideInTop("#box1");
-    }, [])
 
 
   return (
