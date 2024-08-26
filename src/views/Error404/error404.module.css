@@ -1,0 +1,28 @@
+:root
+{
+    --blanc : #ffffff;
+    --noir : #050000;
+    --gris : #c2b3b0;
+    --grisTaupe : #8e8d8a;
+    --grisF : #1b1b1b;
+    --orange : #ff5e37;
+    --bleu : #bbdefb;
+    --bleuRoi : #4169e1;
+    --violet : #431f4b;
+}
+
+.titleError
+{
+    margin-top: 20% !important;
+    font-family: "Bodoni Moda", serif;
+    font-size: 9em !important;
+    color: var(--bleu);
+}
+
+.subTitleError
+{
+    text-align: center;
+    font-family: "Bodoni Moda", serif;
+    font-size: 2em !important;
+    color: var(--bleu);
+}
