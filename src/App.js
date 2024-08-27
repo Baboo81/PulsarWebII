@@ -12,6 +12,7 @@ import Souverainete from './views/Souverainete/Souverainete';
 import Livres from './views/Livres/Livres';
 import Contact from './views/Contact/Contact';
 import Error404 from './views/Error404/Error404';
+import SearchBar from './components/SearchBar/SearchBar';
 
 
 
@@ -22,6 +23,7 @@ function App() {
   return (
     <div className="App">
       <NavBar2 />
+      <SearchBar />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/Home' element={<HomePage />} />

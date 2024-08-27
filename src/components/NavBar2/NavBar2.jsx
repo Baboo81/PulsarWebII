@@ -1,17 +1,8 @@
 import style from './navBar2.module.css';
 import { Link, link } from "react-router-dom";
 import InfoLiberLogo from './InfoLiberLogo.svg';
-import { useState } from "react";
 
 const NavBar2 = () => {
-
-    const data = ["Géopolitique" , "Économie", "Santé", "Actualité", "Souveraineté"];
-
-    const [value, setValue] = useState("");
-
-    function handleChange (event) {
-        setValue(event.target.value)
-    }
 
 
 return (
@@ -67,13 +58,8 @@ return (
                 </li>
             </ul>
             <form class="d-flex mt-4 mb-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" value={value} onChange={handleChange} id='search'/>
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                 <button class="btn btn-outline-success" type="submit">Search</button>
-                <ul>
-                    {
-                        data.map((element, index) => <input key={index} value={element}/>)
-                    }
-                </ul>
             </form>
         </div>
     </div>
