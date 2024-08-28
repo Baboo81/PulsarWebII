@@ -23,7 +23,6 @@ function App() {
   return (
     <div className="App">
       <NavBar2 />
-      <SearchBar />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/Home' element={<HomePage />} />

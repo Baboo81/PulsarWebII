@@ -3,7 +3,12 @@ import { useState } from "react";
 
 const SearchBar = () => {
 
-    const data = ["Géopolitique", "Économie", "Santé", "Actualité", "Souveraineté"];
+    const dataObjects = [
+        { theme: "geopolitique", author: "Idriss Aberkane"},
+        { theme: "geopolitique", author: "Thyerry Meyssan"},
+        { theme: "geopolitique", author: "Pierre Hillard"},
+        { theme: "economie", author: "Pierre Chaillot", "Pierre Jovanovic"},
+    ];
 
     const [value, setValue] = useState("");
 
@@ -12,8 +17,8 @@ const SearchBar = () => {
     }
 
     return (
-        <div className="searchBar">
-            <div className="inputSearch">
+        <div className={style.searchBar}>
+            <div className={style.inputSearch}>
                 <input type="text" value={value} onChange={handleChange} />
                 <button>
                     <span className="material-symbols-outlined">
