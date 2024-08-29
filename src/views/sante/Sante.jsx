@@ -2,11 +2,11 @@ import Btn from '../../components/Btn/Btn';
 import style from './sante.module.css';
 import { motion } from "framer-motion";
 import MainTitle from '../../components/MainTitle/MainTitle';
-import EmaKrusi from './EmaKrusi.svg';
-import NellyGrosjean from './NellyGrosjean.svg';
-import JjCrevecoeur from './JjCrevecoeur.svg';
-import MarieSophieL from './MarieSophieL.svg';
-import ThierryCasasnovas from './ThierryCasasnovas.svg';
+import EmaKrusi from './EmaKrusi.jpg';
+import NellyGrosjean from './NellyGrosjean.jpg';
+import JjCrevecoeur from './JjCrevecoeur.jpg';
+import MarieSophieL from './MarieSophieL.jpg';
+import ThierryCasasnovas from './ThierryCasasnovas.jpg';
 
 
 
@@ -18,13 +18,19 @@ const Sante = () => { 
                     <div className="p-5">
                         <MainTitle title= "Santé" />
                     </div>
-                    <div className="col-md-4 p-4">
-                        <div class="card">
-                            <img src={EmaKrusi} class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="https://classic.emakrusi.com/" class="btn btn-primary">Go somewhere</a>
+                    <div className="col-md-5 p-4">
+                        <div class={style.card}>
+                            <img src={EmaKrusi} class="card-img-top rounded" alt="Image représentant des déssins sur du sable" />
+                            <div class="card-body p-2">
+                                <h5 class="card-title mb-3 p-3">Psychopraticienne & formatrice</h5>
+                                <p class="card-text text-muted p-2">Ema est connue pour ses travaux sur la naissance, le couple ainsi que ses prises de positions publiques sur l'autonomie, l'esprit critique, la manipulation de l'information et la psychologie.</p>
+                                <div className="d-grid gap-2 p-2">
+                                    <a href="https://classic.emakrusi.com/" class="btn btn-outline-primary">Site pour découvrir Ema</a>
+                                </div>
+                                <p class="card-text text-muted p-2">Ema s'est spécialisée dans la périnatalité en proposant un programme d'accompagnement aux futurs parents. Dans ce cadre là, Ema à lancer un site spécialement dédié à cette thématique.</p>
+                                <div className="d-grid gap-2 p-2">
+                                    <a href="https://emakrusi.com/" class="btn btn-outline-primary">Site Mastermind de la naissance</a>
+                                </div>
                             </div>
                         </div>
                     </div>
