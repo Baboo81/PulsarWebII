@@ -4,6 +4,7 @@ import { Fragment } from 'react';
 import { motion } from 'framer-motion';
 import MainTitle from '../../components/MainTitle/MainTitle';
 import Btn from '../../components/Btn/Btn';
+import SearchBar from '../../components/SearchBar/SearchBar';
 
 
 const Contact = () => {
@@ -21,6 +22,11 @@ const Contact = () => {
                         <div className="p-3">
                             <Btn title="Envoyer" />
                         </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-6">
+                        <SearchBar />
                     </div>
                 </div>
             </div>
