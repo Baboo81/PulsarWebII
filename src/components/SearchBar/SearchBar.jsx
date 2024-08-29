@@ -1,8 +1,21 @@
 import style from './searchBar.module.css';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-const SearchBar = () => {
+const SearchBar = ({list, setList, filterField = item => item, ...props}) => {
 
+//Récupération des valeurs pour la zone de recherche:
+const [value, setValue] = useState("")
+
+
+const filterList = () => {
+    return list.filter(item => filterField(item).toLowerCase().includes(value.toLocaleLowerCase()))
+}
+
+const handleChange = event => {
+    setValue(event.target.value)
+}
+
+//Constitution des datas:
     const dataArray = [
         "Géopolitique",
         "Économie",
@@ -28,13 +41,10 @@ const SearchBar = () => {
         { theme: "Actualité", author: { firstName: "Jean-Dominique", lastName: "Michel"}},
         { theme: "Actualité", author: { firstName: "Pierre", lastName: "Barnerias"}},
         { theme: "Souveraineté", author: { firstName: "Louis", lastName: "Fouché"}},
-        { theme: "Livres", details: {dataArray} },
     ];
 
     const [data, setData] = useState(dataArray);
     const [data2, setData2] = useState(dataObjects);
-
-    
 
     return (
       <>
@@ -44,7 +54,10 @@ const SearchBar = () => {
         </div>
         <div>
             <h1>Data Objects</h1>
-            {data.map((item, index) => <p key= {index}>{item.theme} |  {item.author.firstName} | {item.author.lastName} </p>)}
+            {data2.map((item, index) => <p key= {index}>{item.theme} |  {item.author.firstName} | {item.author.lastName} </p>)}
+        </div>
+        <div>
+            <input type="text" placeholder="Recherche" name="search" onChange={handleChange} value={value} {...props} />
         </div>
       </>
     )
