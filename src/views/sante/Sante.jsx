@@ -25,7 +25,7 @@ const Sante = () => { 
                                 <h5 class="card-title mb-3 p-3">Psychopraticienne & formatrice</h5>
                                 <p class="card-text text-muted p-2">Ema est connue pour ses travaux sur la naissance, le couple ainsi que ses prises de positions publiques sur l'autonomie, l'esprit critique, la manipulation de l'information et la psychologie.</p>
                                 <div className="d-grid gap-2 p-2">
-                                    <a href="https://classic.emakrusi.com/" class="btn btn-outline-primary">Site pour découvrir Ema</a>
+                                    <a href="https://classic.emakrusi.com/" class="btn btn-outline-primary">Pour visiter le site de Ema</a>
                                 </div>
                                 <p class="card-text text-muted p-2">Ema s'est spécialisée dans la périnatalité en proposant un programme d'accompagnement aux futurs parents. Dans ce cadre là, Ema à lancer un site spécialement dédié à cette thématique.</p>
                                 <div className="d-grid gap-2 p-2">
@@ -34,13 +34,15 @@ const Sante = () => { 
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 p-4">
-                        <div class="card">
-                            <img src={NellyGrosjean} class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="https://nellygrosjean.com/" class="btn btn-primary">Go somewhere</a>
+                    <div className="col-md-5 p-4">
+                        <div class={style.card}>
+                            <img src={NellyGrosjean} class="card-img-top rounded" alt="Image d'un champ de lavande" />
+                            <div class="card-body p-2">
+                                <h5 class="card-title mb-3">Naturopathe, aromathérapeute & formatrice</h5>
+                                <p class="card-text text-muted p-2">Nelly est une pionnière dans le domaine de la santé au naturel, spécialisée en aromathérapie elle propose des formations ainsi que des cures détox et une multitude d'informations pour se maintenir en santé. Elle est l'auteur de plusieurs livres que vous pourrez trouver dans la section livre du site.</p>
+                                <div className="d-grid gap-2 p-2">
+                                    <a href="https://nellygrosjean.com/" class="btn btn-outline-primary">Pour visiter le site de Nelly</a>
+                                </div>
                             </div>
                         </div>
                     </div>
