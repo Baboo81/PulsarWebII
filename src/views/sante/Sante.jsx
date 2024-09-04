@@ -7,6 +7,7 @@ import NellyGrosjean from './NellyGrosjean.jpg';
 import JjCrevecoeur from './JjCrevecoeur.jpg';
 import MarieSophieL from './MarieSophieL.jpg';
 import ThierryCasasnovas from './ThierryCasasnovas.jpg';
+import RobinDesToits from './RobinDesToits.jpg';
 
 
 
@@ -65,7 +66,7 @@ const Sante = () => { 
                             <img src={MarieSophieL} class="card-img-top rounded" alt="" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Naturopathe & Raw Chef</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div className="d-grid gap-2 p-2">
                                     <a href="https://mariesophiel.com/" class="btn btn-outline-primary">Pour aller vers l'instant cru</a>
                                 </div>
@@ -74,18 +75,29 @@ const Sante = () => { 
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col-md-4 p-4">
-                        <div class="card">
-                            <img src={ThierryCasasnovas} class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="https://www.rgnr.tv/" class="btn btn-primary">Go somewhere</a>
+                    <div className="col-md-5 p-4">
+                        <div class={style.card}>
+                            <img src={ThierryCasasnovas} class="card-img-top rounded" alt="..." />
+                            <div class="card-body p-2">
+                                <h5 class="card-title mb-3 p-3">Card title</h5>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div className="d-grid gap-2 p-2">
+                                    <a href="https://www.rgnr.tv/" class="btn btn-outline-primary">Pour aller vers RGNR</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 p-4">
-                        
+                    <div className="col-md-5 p-4">
+                        <div class={style.card}>
+                            <img src={RobinDesToits} class="card-img-top rounded" alt="Image représentant une antenne relais" />
+                            <div class="card-body p-2">
+                                <h5 class="card-title mb-3 p-3">Pollution élèctromagnétique liée aux réseaux téléphoniques</h5>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div className="d-grid gap-2 p-2">
+                                    <a href="https://www.robindestoits.org/" class="btn btn-outline-primary">Pour aller vers Robin des toits</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
