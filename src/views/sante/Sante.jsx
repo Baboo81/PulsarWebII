@@ -66,7 +66,7 @@ const Sante = () => { 
                             <img src={MarieSophieL} class="card-img-top rounded" alt="" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Naturopathe & Raw Chef</h5>
-                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text text-muted">Marie-Sophie va vous donner l'eau à la bouche en vous faisant découvrir la crusine, ses recettes sont épatantes et délicieuses.<br />Grâce à la crusine vous ferez un bien fou à votre corps et à votre âme.</p>
                                 <div className="d-grid gap-2 p-2">
                                     <a href="https://mariesophiel.com/" class="btn btn-outline-primary">Pour aller vers l'instant cru</a>
                                 </div>
