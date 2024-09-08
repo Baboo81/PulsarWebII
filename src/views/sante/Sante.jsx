@@ -56,7 +56,7 @@ const Sante = () => { 
                                 <h5 class="card-title mb-3 p-3">Formateur & physicien</h5>
                                 <p class="card-text text-muted">Jean-Jacques est l'auteur de plusieurs livres très éclairants sur les jeux de pouvoir, la façon de prendre soin de ces besoins. IL donne des formations sur tout un panel de thématiques qui visent à vivre en harmonie avec soi-même ainsi qu'avec les autres, ses formations orientent l'élève vers l'autonomie, la souveraineté et la santé.</p>
                                 <div className="d-grid gap-2 p-2">
-                                    <a href="https://formations.emergences.net/login" class="btn btn-outline-primary">Pour aller vers le site Jean-Jacques</a>
+                                    <a href="https://formations.emergences.net/login" class="btn btn-outline-primary">Pour aller vers Emergence-formations</a>
                                 </div>
                             </div>
                         </div>
