@@ -2,10 +2,10 @@ import Btn from '../../components/Btn/Btn';
 import style from './actualite.module.css';
 import { motion } from "framer-motion";
 import MainTitle from '../../components/MainTitle/MainTitle';
-import AlexandrePenasse from './AlexandrePenasse.svg';
-import SalimLaïbi from './SalimLaïbi.svg';
-import JDMichel from './JDMichel.svg';
-import PierreBarnerias from './PierreBarnerias.svg';
+import AlexandrePenasse from './AlexandrePenasse.jpg';
+import SalimLaïbi from './SalimLaïbi.jpg';
+import JDMichel from './JDMichel.jpg';
+import PierreBarnerias from './PierreBarnerias.jpg';
 
 
 
@@ -21,10 +21,12 @@ const Actualite = () => { 
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
                             <img src={AlexandrePenasse} class="card-img-top rounded" alt="Image représentant des journalistes en action" />
-                            <div class="card-body">
-                                <h5 class="card-title">Journaliste</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="https://www.kairospresse.be/" class="btn btn-primary">Aller vers ce site</a>
+                            <div class="card-body p-2">
+                                <h5 class="card-title mb-3 p-3">Journaliste</h5>
+                                <p class="card-text text-muted p-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div className="d-grid gap-2 p-2">
+                                    <a href="https://www.kairospresse.be/" class="btn btn-outline-primary">Site de Kairos</a>
+                                </div>
                             </div>
                         </div>
                     </div>
