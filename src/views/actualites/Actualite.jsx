@@ -30,13 +30,15 @@ const Actualite = () => { 
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 p-4">
-                        <div class="card">
+                    <div className="col-md-5 p-4">
+                        <div class={style.card}>
                             <img src={SalimLaïbi} class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Chirurgien dentiste</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="https://www.lelibrepenseur.org/" class="btn btn-primary">Aller vers ce site</a>
+                            <div class="card-body p-2">
+                                <h5 class="card-title mb-3 p-3">Chirurgien dentiste</h5>
+                                <p class="card-text text-muted p-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div className="d-grid gap-2 p-2">
+                                    <a href="https://www.lelibrepenseur.org/" class="btn btn-outline-primary">Site Le Libre Penseur</a>
+                                </div>
                             </div>
                         </div>
                     </div>
