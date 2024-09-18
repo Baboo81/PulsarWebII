@@ -54,12 +54,12 @@ const Actualite = () => { 
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 p-4">
-                        <div class="card">
-                            <img src={PierreBarnerias} class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div className="col-md-5 p-4">
+                        <div class={style.card}>
+                            <img src={PierreBarnerias} class="card-img-top rounded" alt="..." />
+                            <div class="card-body p-2">
+                                <h5 class="card-title mb-3 p-3">Journaliste</h5>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="https://citizen-light.fr/actualites/" class="btn btn-primary">Aller vers ce site</a>
                             </div>
                         </div>
