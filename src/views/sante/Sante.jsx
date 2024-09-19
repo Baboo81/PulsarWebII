@@ -63,7 +63,7 @@ const Sante = () => { 
                     </div>
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
-                            <img src={MarieSophieL} class="card-img-top rounded" alt="" />
+                            <img src={MarieSophieL} class="card-img-top rounded" alt="Image représentant des graines en tout genre" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Naturopathe & Raw Chef</h5>
                                 <p class="card-text text-muted">Marie-Sophie va vous donner l'eau à la bouche en vous faisant découvrir la crusine, ses recettes sont épatantes et délicieuses.<br />Grâce à la crusine vous ferez un bien fou à votre corps et à votre âme.</p>
@@ -77,7 +77,7 @@ const Sante = () => { 
                 <div className="row justify-content-center">
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
-                            <img src={ThierryCasasnovas} class="card-img-top rounded" alt="..." />
+                            <img src={ThierryCasasnovas} class="card-img-top rounded" alt="Image représentant une sphère au milieu des bois" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Conseiller en santé</h5>
                                 <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

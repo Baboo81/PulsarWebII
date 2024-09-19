@@ -21,7 +21,7 @@ const Souverainete = () => { 
                                 <h5 class="card-title mb-3 p-3">Médecin anesthésiste & réanimateur</h5>
                                 <p class="card-text text-muted p-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div className="d-grid gap-2 p-2">
-                                    <a href="https://louisfouche.fr//" class="btn btn-outline-primary">Site personnel d'Idriss.A</a>
+                                    <a href="https://louisfouche.fr//" class="btn btn-outline-primary">Site personnel de Louis Fouché</a>
                                 </div>
                             </div>
                         </div>

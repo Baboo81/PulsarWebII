@@ -46,7 +46,7 @@ const Actualite = () => { 
                 <div className="row justify-content-center">
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
-                            <img src={JDMichel} class="card-img-top rounded" alt="..." />
+                            <img src={JDMichel} class="card-img-top rounded" alt="Image représentant un faisceau de bulles" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Anthropologue & expert en santé</h5>
                                 <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -58,7 +58,7 @@ const Actualite = () => { 
                     </div>
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
-                            <img src={PierreBarnerias} class="card-img-top rounded" alt="..." />
+                            <img src={PierreBarnerias} class="card-img-top rounded" alt="Image représentant un interview" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Journaliste</h5>
                                 <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
