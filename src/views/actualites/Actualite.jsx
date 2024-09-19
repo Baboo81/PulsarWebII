@@ -50,7 +50,9 @@ const Actualite = () => { 
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Anthropologue & expert en santé</h5>
                                 <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="https://www.jdmichel.tv/" class="btn btn-primary">Aller vers ce site</a>
+                                <div className="d-grid gap-2 p-2">
+                                    <a href="https://www.jdmichel.tv/" class="btn btn-outline-primary">Site de Jean-Dominique Michel</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -60,7 +62,9 @@ const Actualite = () => { 
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Journaliste</h5>
                                 <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="https://citizen-light.fr/actualites/" class="btn btn-primary">Aller vers ce site</a>
+                                <div className="d-grid gap-2 p-2">
+                                    <a href="https://citizen-light.fr/actualites/" class="btn btn-outline-primary">Site Citizen-light</a>
+                                </div>
                             </div>
                         </div>
                     </div>

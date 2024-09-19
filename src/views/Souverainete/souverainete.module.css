@@ -14,12 +14,45 @@ section
     height: 2600px;
 }
 
-.picto
+.card
 {
-    height: 300px;
-    width: 300px;
-    z-index: 100;
+    border-radius: 1%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    padding: 4%;
+    background-color: var(--bleu);
 }
+
+.card:hover
+{
+    transform: scale(1.04);
+    transition: transform 330ms ease-in;
+}
+
+.card-img-top
+{
+    height: 100%;
+    width: 100%;
+}
+
+h5
+{
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: bold !important;
+    font-size: 2em !important;
+}
+
+p
+{
+    font-size: 1em !important;
+    text-align: start;
+}
+
+.icon
+{
+    height: 3em;
+    width: 3em;
+}
+
 
 /*Média queries*/
 /*Pour les mobiles, à largeur d'ecran inférieur à 480px :*/
