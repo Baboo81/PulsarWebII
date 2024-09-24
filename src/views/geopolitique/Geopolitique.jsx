@@ -8,7 +8,7 @@ import MainTitle from '../../components/MainTitle/MainTitle';
 import IdrissAberkane from './IdrissAberkane.jpg';
 import PierreHillard from './PierreHillard.jpg';
 import ThierryMeyssan from './ThierryMeyssan.jpg';
-import BackGround from './BackGround.jpg';
+
 
 
 const Geopolitique = () => {
