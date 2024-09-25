@@ -8,6 +8,7 @@ import MainTitle from '../../components/MainTitle/MainTitle';
 import IdrissAberkane from './IdrissAberkane.jpg';
 import PierreHillard from './PierreHillard.jpg';
 import ThierryMeyssan from './ThierryMeyssan.jpg';
+import backGround from './backGround.svg';
 
 
 
@@ -18,6 +19,9 @@ const Geopolitique = () => {
                 <div className="row justify-content-center">
                     <div className="p-5 mt-5">
                         <MainTitle title= "Géopolitique" className="box" id="box1" />
+                    </div>
+                    <div className="col-md-12">
+                        <img src={backGround} alt="" />
                     </div>
                     <div className="col-md-5 p-4">
                         <div class= {style.card} >
