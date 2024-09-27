@@ -45,6 +45,9 @@ return (
                             <Link to='/Souverainete' class="dropdown-item" href="#">Souveraineté</Link>
                         </li>
                         <li>
+                            <Link to='/Psychologie' class="dropdown-item" hrer="#">Psychologie</Link>
+                        </li>
+                        <li>
                             <hr class="dropdown-divider" />
                         </li>
                         <li><a class="dropdown-item" href="#">Contact</a></li>

@@ -11,6 +11,7 @@ import { Routes } from 'react-router-dom';
 import Souverainete from './views/Souverainete/Souverainete';
 import Livres from './views/Livres/Livres';
 import Contact from './views/Contact/Contact';
+import Psychologie from './views/Psychologie/Psychologie';
 import Error404 from './views/Error404/Error404';
 import SearchBar from './components/SearchBar/SearchBar';
 
@@ -33,6 +34,7 @@ function App() {
         <Route path='/Souverainete' element={<Souverainete />} />
         <Route path='/Livres' element={<Livres />} />
         <Route path='/Contact' element={<Contact />} />
+        <Route path='/Psychologie' element={<Psychologie /> } />
         <Route path='*' element={<Error404 />} />
       </Routes>
     </div>
