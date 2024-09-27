@@ -9,6 +9,7 @@ import IdrissAberkane from './IdrissAberkane.jpg';
 import PierreHillard from './PierreHillard.jpg';
 import ThierryMeyssan from './ThierryMeyssan.jpg';
 import backGround from './backGround.svg';
+import YoussefHindi from './YoussefHindi.jgp';
 
 
 
@@ -26,6 +27,27 @@ const Geopolitique = () => {
                     <div className="col-md-5 p-4">
                         <div class= {style.card} >
                             <img src={IdrissAberkane} class="card-img-top rounded" alt="Image représentant un dôme de verre" />
+                            <div class="card-body p-2">
+                                <h5 class="card-title mb-3 p-3">Écrivain, conférencier & chercheur</h5>
+                                <p class="card-text text-muted p-2">Idriss.A possède trois doctorats dans les domaines suivants: Littérature Comparée, Diplomatie & Relations Internationales ainsi les Neurosciences.
+                                Pour visiter son site personnel cliquer sur le bouton ci-dessous:
+                                </p>
+                                <div className="d-grid gap-2 p-2">
+                                    <a href="https://idrissaberkane.org/" class="btn btn-outline-primary">Site personnel d'Idriss.A</a>
+                                </div>
+                                <p class="card-text text-muted p-2">
+                                    Idriss.A s'intérresse à une multitude de sujets autre que la géopolitique tels que les sciences, l'économie, l'I.A, ... Il développe ces thématiques avec beaucoup de rigueur et de neutralité. Idriss.A a crée Scanderia qui est un site axé sur l'apprentissage de divers sujets; économie, géopolitique, ...<br />
+                                    vous pourrez trouver dans la section livres du site quelques références.
+                                </p>
+                                <div className="d-grid gap-2 p-2">
+                                    <a href="https://scanderia.com/" class="btn btn-outline-primary">Aller vers le site : Scanderia</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-5 p-4">
+                        <div class= {style.card} >
+                            <img src={YoussefHindi} class="card-img-top rounded" alt="Image représentant un dôme de verre" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Écrivain, conférencier & chercheur</h5>
                                 <p class="card-text text-muted p-2">Idriss.A possède trois doctorats dans les domaines suivants: Littérature Comparée, Diplomatie & Relations Internationales ainsi les Neurosciences.
