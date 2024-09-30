@@ -3,7 +3,6 @@
 #Liste réseaux : CrowdBunker, Solidaritas, Solaris, Le média 4-4-2.
 #Sécuriser le site.
 #Contactez les protagonistes via Linkedin ou autres.
-#Création d'un logo + création d'une image de fond sur base du logo.
 #Refaire les vignettes non-conformes.
 #Création d'un espace commentaire.
 #Explorer React Native.
