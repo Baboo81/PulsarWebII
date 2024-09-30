@@ -1,4 +1,4 @@
-#Liste personne : Alexis Poulain, Senta Depuydt, Denis Rancourt, Christian Gerondeau, Karlzero, Guy De La Fortelle, Dominique Belpomme, Patrick Jaulent, Ariane Bilheran, Jacqueline Roche, Jean-Pierre Petit, Slobodan Despot, Xavier Azalbert, Phillipe Bobola, Xavier Cauquil.
+#Liste personne : Alexis Poulain, Senta Depuydt, Denis Rancourt, Christian Gerondeau, Karlzero, Guy De La Fortelle, Dominique Belpomme, Patrick Jaulent, Jacqueline Roche, Jean-Pierre Petit, Slobodan Despot, Xavier Azalbert, Phillipe Bobola, Xavier Cauquil.
 #Sites : L'Agora, btlv, NuréaTV, Les Belges se réveillent.
 #Liste réseaux : CrowdBunker, Solidaritas, Solaris, Le média 4-4-2.
 #Sécuriser le site.
@@ -11,4 +11,4 @@
 #Ajouter une page : psychologie.jsx.
 #DB via MySQL.
 #Réorganiser la navigation.
-#Error 404 page.
+
