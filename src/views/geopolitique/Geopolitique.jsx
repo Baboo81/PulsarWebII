@@ -24,7 +24,7 @@ const Geopolitique = () => {
                     <div className="col-md-12 mb-5">
                         <TagLine title="Avoir un esprit critique permet de se dissocier de la masse, sans cela nous ne sommes que les rouages du mécanisme de la machine totalitaire." />
                     </div>
-                    <div className="col-md-5 p-4">
+                    <div className="col-md-5 p-4 mt-5">
                         <div class= {style.card} >
                             <img src={IdrissAberkane} class="card-img-top rounded" alt="Image représentant un dôme de verre" />
                             <div class="card-body p-2">
@@ -45,7 +45,7 @@ const Geopolitique = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-5 p-4">
+                    <div className="col-md-5 p-4 mt-5">
                         <div class= {style.card} >
                             <img src={YoussefHindi} class="card-img-top rounded" alt="Image représentant un dôme de verre" />
                             <div class="card-body p-2">
