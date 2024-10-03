@@ -8,8 +8,8 @@ import MainTitle from '../../components/MainTitle/MainTitle';
 import IdrissAberkane from './IdrissAberkane.jpg';
 import PierreHillard from './PierreHillard.jpg';
 import ThierryMeyssan from './ThierryMeyssan.jpg';
-import backGround from './backGround.svg';
 import YoussefHindi from './YoussefHindi.jpg';
+import TagLine from '../../components/TagLine/TagLine';
 
 
 
@@ -22,7 +22,7 @@ const Geopolitique = () => {
                         <MainTitle title= "Géopolitique" className="box" id="box1" />
                     </div>
                     <div className="col-md-12">
-                        <img src={backGround} alt="" />
+                        <TagLine title="Avoir un esprit critique permet de se dissocier de la masse, sans cela nous ne sommes que les rouages du mécanisme de la machine totalitaire" />
                     </div>
                     <div className="col-md-5 p-4">
                         <div class= {style.card} >
