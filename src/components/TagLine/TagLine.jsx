@@ -6,9 +6,10 @@ const TagLine = (props) => {
 
 
     return (
-        <>
-            <h4> {title} </h4>
-        </>
+        <div className= {style.tagLine} >
+            <h1> {title} </h1>
+        </div>
+        
     );
 
 };

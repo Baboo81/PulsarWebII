@@ -21,8 +21,8 @@ const Geopolitique = () => {
                     <div className="p-5 mt-5">
                         <MainTitle title= "Géopolitique" className="box" id="box1" />
                     </div>
-                    <div className="col-md-12">
-                        <TagLine title="Avoir un esprit critique permet de se dissocier de la masse, sans cela nous ne sommes que les rouages du mécanisme de la machine totalitaire" />
+                    <div className="col-md-12 mb-5">
+                        <TagLine title="Avoir un esprit critique permet de se dissocier de la masse, sans cela nous ne sommes que les rouages du mécanisme de la machine totalitaire." />
                     </div>
                     <div className="col-md-5 p-4">
                         <div class= {style.card} >

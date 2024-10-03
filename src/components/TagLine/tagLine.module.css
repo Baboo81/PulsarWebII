@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+
+:root
+{
+    --noir : #050000;
+    --gris : #c2b3b0;
+    --grisBis : #bdbdbd; 
+    --roseP : #ffc3bb;
+    --roseF : #ff8e96;
+    --orange : #ffab91;
+    --bleu : #bbdefb;
+    --bleuRoi : #4169e1;
+}
+
+.tagLine
+{
+    border-top: solid var(--bleu) 1px;
+    border-bottom: solid var(--bleu) 1px;
+    text-align: center;
+    color: var(--bleu);
+    font-family: 'Bodoni';
+}
