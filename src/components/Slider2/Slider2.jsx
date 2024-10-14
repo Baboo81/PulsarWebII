@@ -1,5 +1,5 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import style from './slider.module.css';
+import style from './slider2.module.css';
 import { Carousel } from 'react-responsive-carousel';
 import LivreAberkane1 from './Geopolitique/IdrissA/LivreAberkane1.png';
 import LivreAberkane2 from './Geopolitique/IdrissA/LivreAberkane2.png';
@@ -41,7 +41,9 @@ import LivreLaïbi4 from './Actualité/SalimL/LivreLaïbi4.png';
 import LivreMichel1 from './Actualité/JeanDominiqueM/LivreMichel1.png';
 import LivreMichel2 from './Actualité/JeanDominiqueM/LivreMichel2.png';
 import LivreBarnerias1 from './Actualité/PierreB/LivreBarnerias1.png';
-
+import LivreFouché1 from './Souveraineté/FouchéL/LivreFouché1.png';
+import LivreFouché2 from './Souveraineté/FouchéL/LivreFouché2.png';
+import LivreFouché3 from './Souveraineté/FouchéL/LivreFouché3.png';
 
 
 const Slider2 = () => {
@@ -305,27 +307,55 @@ const Slider2 = () => {
             title:"La casse du siècle",
             txt: `Lorem, ipsum dolor sit amet`,
         },
-
+        //Souveraineté:
+        //Louis.F
+        {
+            id: 41,
+            img: `${LivreFouché1}`,
+            title:"Traverser la peur l'Odyssée du réel",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 42,
+            img: `${LivreFouché2}`,
+            title:"Tous résistants dans l'âme",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 43,
+            img: `${LivreFouché3}`,
+            title:"Agonie et renouveau du systéme de santé",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
 
 
 
     ]
     return (
-
-        <Carousel
-            thumbWidth={120}
-            showStatus={false}
-        >
-            {data.map (slide => 
-                <div key={slide.id} >
-                    <img src={slide.img} alt="" />
-                    <div className={style.overlay}>
-                        <h2 className={style.overlay_title}>{slide.title}</h2>
-                        <p className={style.overlay_text}>{slide.txt}</p>
+      
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6">
+                        <article>
+                            <Carousel
+                                thumbWidth={120}
+                                showStatus={false}
+                            >
+                                {data.map (slide => 
+                                    <div key={slide.id} >
+                                        <img src={slide.img} alt="" />
+                                        <div className={style.overlay}>
+                                            <h2 className={style.overlay_title}>{slide.title}</h2>
+                                            <p className={style.overlay_text}>{slide.txt}</p>
+                                        </div>
+                                    </div>
+                                )}
+                            </Carousel>
+                        </article>
                     </div>
                 </div>
-            )}
-        </Carousel>
+            </div>
+            
 
     )
 }

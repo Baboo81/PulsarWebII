@@ -9,12 +9,11 @@ const Livres = () => {
     return (
         <section>
             <div className="container">
-                <div className="row">
-                    <MainTitle title="Les références" />
-                    <div className="col-md-12 p-5">
-
+                <div className="row justify-content-center">
+                    <div className="p-5 mt-5">
+                        <MainTitle title="Les références" />
                     </div>
-                    <div className="col-md-12 p-5">
+                    <div className="col-md-7 p-5">
                         <div className="p-5">
                             <Slider2 />
                         </div>
