@@ -24,7 +24,11 @@ import LivreJovanovic1 from './Economie/PierreJ/LivreJovanovic1.png';
 import LivreJovanovic2 from './Economie/PierreJ/LivreJovanovic2.png';
 import LivreJovanovic3 from './Economie/PierreJ/LivreJovanovic3.png';
 import LivreJovanovic4 from './Economie/PierreJ/LivreJovanovic4.png';
-
+import LivreKrusi1 from './Santé/EmaK/LivreKrusi1.png';
+import LivreGrosjean1 from './Santé/NellyG/LivreGrosjean1.png';
+import LivreGrosjean2 from './Santé/NellyG/LivreGrosjean2.png';
+import LivreGrosjean3 from './Santé/NellyG/LivreGrosjean3.png';
+import LivreGrosjean4 from './Santé/NellyG/LivreGrosjean4.png';
 const Slider2 = () => {
     
     const data = [
@@ -176,7 +180,38 @@ const Slider2 = () => {
         },
         //Santé:
         //Krusi.E
-        
+        {
+            id: 24,
+            img: `${LivreKrusi1}`,
+            title:"Faux départ, se réapproprier la naissance",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        //Grosjean.N
+        {
+            id: 25,
+            img: `${LivreGrosjean1}`,
+            title:"Les bienfaits de l'alimentation vivante",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 26,
+            img: `${LivreGrosjean2}`,
+            title:"Le grand livre de l'aromathérapie",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 27,
+            img: `${LivreGrosjean3}`,
+            title:"Le grand livre de l'alimentation vivante",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 28,
+            img: `${LivreGrosjean4}`,
+            title:"Bien se préparer à l'hiver",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+
 
 
 
