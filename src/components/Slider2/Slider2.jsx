@@ -15,6 +15,10 @@ import LivreMeyssan1 from './Geopolitique/Thierry.M/LivreMeyssan1.png';
 import LivreMeyssan2 from './Geopolitique/Thierry.M/LivreMeyssan2.png';
 import LivreMeyssan3 from './Geopolitique/Thierry.M/LivreMeyssan3.png';
 import LivreMeyssan4 from './Geopolitique/Thierry.M/LivreMeyssan4.png';
+import LivreHindi1 from './Geopolitique/YoussefH/LivreHindi1.png';
+import LivreHindi2 from './Geopolitique/YoussefH/LivreHindi2.png';
+import LivreHindi3 from './Geopolitique/YoussefH/LivreHindi3.png';
+import LivreHindi4 from './Geopolitique/YoussefH/LivreHindi4.png';
 
 const Slider2 = () => {
     
@@ -105,6 +109,31 @@ const Slider2 = () => {
             img: `${LivreMeyssan4}`,
             title: "Title slider 1",
             txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+        },
+        //Hindi.Y
+        {
+            id: 15,
+            img: `${LivreHindi1}`,
+            title:"Covidisme et méssianisme",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 16,
+            img: `${LivreHindi2}`,
+            title:"Les mythes fondateurs du choc des civilastions",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 17,
+            img: `${LivreHindi3}`,
+            title:"Occident et Islam",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 18,
+            img: `${LivreHindi4}`,
+            title:"La mystique de la laïcité",
+            txt: `Lorem, ipsum dolor sit amet`,
         },
     ]
     return (
