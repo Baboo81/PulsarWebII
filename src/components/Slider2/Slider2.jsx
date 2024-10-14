@@ -19,10 +19,16 @@ import LivreHindi1 from './Geopolitique/YoussefH/LivreHindi1.png';
 import LivreHindi2 from './Geopolitique/YoussefH/LivreHindi2.png';
 import LivreHindi3 from './Geopolitique/YoussefH/LivreHindi3.png';
 import LivreHindi4 from './Geopolitique/YoussefH/LivreHindi4.png';
+import LivreChaillot1 from './Economie/PierreC/LivreChaillot1.png';
+import LivreJovanovic1 from './Economie/PierreJ/LivreJovanovic1.png';
+import LivreJovanovic2 from './Economie/PierreJ/LivreJovanovic2.png';
+import LivreJovanovic3 from './Economie/PierreJ/LivreJovanovic3.png';
+import LivreJovanovic4 from './Economie/PierreJ/LivreJovanovic4.png';
 
 const Slider2 = () => {
     
     const data = [
+        //Géopolitique
         //Aberkane.I
         {
             id: 1, 
@@ -135,6 +141,40 @@ const Slider2 = () => {
             title:"La mystique de la laïcité",
             txt: `Lorem, ipsum dolor sit amet`,
         },
+        //Économie:
+        //Chaillot.P
+        {
+            id: 19,
+            img: `${LivreChaillot1}`,
+            title:"Covid 19, ce que révèlent les chiffres officiels",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        //Jovanovic.P
+        {
+            id: 20,
+            img: `${LivreJovanovic1}`,
+            title:"666",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 21,
+            img: `${LivreJovanovic2}`,
+            title:"777",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 22,
+            img: `${LivreJovanovic3}`,
+            title:"888",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 23,
+            img: `${LivreJovanovic4}`,
+            title:"Enquête sur les Anges gardiens",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+
     ]
     return (
 
