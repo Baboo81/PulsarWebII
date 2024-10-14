@@ -40,6 +40,8 @@ import LivreLaïbi3 from './Actualité/SalimL/LivreLaïbi3.png';
 import LivreLaïbi4 from './Actualité/SalimL/LivreLaïbi4.png';
 import LivreMichel1 from './Actualité/JeanDominiqueM/LivreMichel1.png';
 import LivreMichel2 from './Actualité/JeanDominiqueM/LivreMichel2.png';
+import LivreBarnerias1 from './Actualité/PierreB/LivreBarnerias1.png';
+
 
 
 const Slider2 = () => {
@@ -296,7 +298,13 @@ const Slider2 = () => {
             title:"Covid: anatomie d'une crise sanitaire",
             txt: `Lorem, ipsum dolor sit amet`,
         },
-
+        //Pierre.B
+        {
+            id: 40,
+            img: `${LivreBarnerias1}`,
+            title:"La casse du siècle",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
 
 
 
