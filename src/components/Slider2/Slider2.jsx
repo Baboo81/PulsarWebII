@@ -29,6 +29,13 @@ import LivreGrosjean1 from './Santé/NellyG/LivreGrosjean1.png';
 import LivreGrosjean2 from './Santé/NellyG/LivreGrosjean2.png';
 import LivreGrosjean3 from './Santé/NellyG/LivreGrosjean3.png';
 import LivreGrosjean4 from './Santé/NellyG/LivreGrosjean4.png';
+import LivreCrevecoeur1 from './Santé/JeanJacquesC/LivreCrevecoeur1.png';
+import LivreCrevecoeur2 from './Santé/JeanJacquesC/LivreCrevecoeur2.png';
+import LivreMarieSophie1 from './Santé/MarieSophieL/LivreMarieSophie1.png';
+import LivreMarieSophie2 from './Santé/MarieSophieL/LivreMarieSophie2.png';
+import LivreCasasnovas1 from './Santé/ThierryC/LivreCasasnovas1.png';
+
+
 const Slider2 = () => {
     
     const data = [
@@ -209,6 +216,39 @@ const Slider2 = () => {
             id: 28,
             img: `${LivreGrosjean4}`,
             title:"Bien se préparer à l'hiver",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        //Crèvecoeur.J-J
+        {
+            id: 29,
+            img: `${LivreCrevecoeur1}`,
+            title:"Relations & jeux de pouvoir",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 30,
+            img: `${LivreCrevecoeur2}`,
+            title:"Prenez soin de vous, n'attendez pas que les autres le fassent",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        //Marie-Sophie.L
+        {
+            id: 31,
+            img: `${LivreMarieSophie1}`,
+            title:"L'instant cru",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 32,
+            img: `${LivreMarieSophie2}`,
+            title:"L'alimentation crue, une réponse aux dérives alimentaires",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        //Thierry.C
+        {
+            id: 33,
+            img: `${LivreCasasnovas1}`,
+            title:"La révolution du jeûne sec",
             txt: `Lorem, ipsum dolor sit amet`,
         },
 
