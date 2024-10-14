@@ -34,6 +34,12 @@ import LivreCrevecoeur2 from './Santé/JeanJacquesC/LivreCrevecoeur2.png';
 import LivreMarieSophie1 from './Santé/MarieSophieL/LivreMarieSophie1.png';
 import LivreMarieSophie2 from './Santé/MarieSophieL/LivreMarieSophie2.png';
 import LivreCasasnovas1 from './Santé/ThierryC/LivreCasasnovas1.png';
+import LivreLaïbi1 from './Actualité/SalimL/LivreLaïbi1.png';
+import LivreLaïbi2 from './Actualité/SalimL/LivreLaïbi2.png';
+import LivreLaïbi3 from './Actualité/SalimL/LivreLaïbi3.png';
+import LivreLaïbi4 from './Actualité/SalimL/LivreLaïbi4.png';
+import LivreMichel1 from './Actualité/JeanDominiqueM/LivreMichel1.png';
+import LivreMichel2 from './Actualité/JeanDominiqueM/LivreMichel2.png';
 
 
 const Slider2 = () => {
@@ -251,7 +257,45 @@ const Slider2 = () => {
             title:"La révolution du jeûne sec",
             txt: `Lorem, ipsum dolor sit amet`,
         },
-
+        //Actualité:
+        //Salim.L
+        {
+            id: 34,
+            img: `${LivreLaïbi1}`,
+            title:"La fin du monde moderne",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 35,
+            img: `${LivreLaïbi2}`,
+            title:"La faillite du monde moderne",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 36,
+            img: `${LivreLaïbi3}`,
+            title:"Vitamine C liposomale et cancer",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 37,
+            img: `${LivreLaïbi4}`,
+            title:"Climate terror",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        //Jean-Dominique.M
+        {
+            id: 38,
+            img: `${LivreMichel1}`,
+            title:"La fabrication du désastre",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
+        {
+            id: 39,
+            img: `${LivreMichel2}`,
+            title:"Covid: anatomie d'une crise sanitaire",
+            txt: `Lorem, ipsum dolor sit amet`,
+        },
 
 
 
