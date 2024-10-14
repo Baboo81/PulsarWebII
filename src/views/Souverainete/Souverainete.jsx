@@ -16,7 +16,7 @@ const Souverainete = () => { 
                     </div>
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
-                            <img src={LouisFouché} class="card-img-top rounded" alt="..." />
+                            <img src={LouisFouché} class="card-img-top rounded" style={{height: "20rem" }} alt="..." />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Médecin anesthésiste & réanimateur</h5>
                                 <p class="card-text text-muted p-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

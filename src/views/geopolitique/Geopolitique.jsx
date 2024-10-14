@@ -26,7 +26,7 @@ const Geopolitique = () => {
                     </div>
                     <div className="col-md-5 p-4 mt-5">
                         <div class= {style.card} >
-                            <img src={IdrissAberkane} class="card-img-top rounded" alt="Image représentant un dôme de verre" />
+                            <img src={IdrissAberkane} class="card-img-top rounded" style={{height: "20rem" }} alt="Image représentant un dôme de verre" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Écrivain, conférencier & chercheur</h5>
                                 <p class="card-text text-muted p-2">Idriss.A possède trois doctorats dans les domaines suivants: Littérature Comparée, Diplomatie & Relations Internationales ainsi les Neurosciences.
@@ -47,7 +47,7 @@ const Geopolitique = () => {
                     </div>
                     <div className="col-md-5 p-4 mt-5">
                         <div class= {style.card} >
-                            <img src={YoussefHindi} class="card-img-top rounded" alt="Image représentant un dôme de verre" />
+                            <img src={YoussefHindi} class="card-img-top rounded" style={{height: "20rem" }} alt="Image représentant un dôme de verre" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Écrivain, Géopolitologue & Historien</h5>
                                 <p class="card-text text-muted p-2">Youssef est un écrivain de talent, il explique avec beaucoup de clareté des sujets traitants de géopolitique et historique, il est l'auteur de plusieurs livres forts éclairants tels que: Covidisme et méssianisme, le conflit Israélo-Palestinien, ...<br /> Vous trouverez dans la section livres du site quelques références.
@@ -74,7 +74,7 @@ const Geopolitique = () => {
                 <div className="row justify-content-center">
                     <div className="col-md-5 p-4">
                         <div class= {style.card} >
-                            <img src={ThierryMeyssan} class="card-img-top rounded" alt="Image d'une salle majestueuse" />
+                            <img src={ThierryMeyssan} class="card-img-top rounded" style={{height: "20rem" }} alt="Image d'une salle majestueuse" />
                             <div class="card-body">
                                 <h5 class="card-title mb-3 p-3">Consultant politique & Géopolitologue</h5>
                                 <p class="card-text text-muted">Thierry.M, a été engagé en politique, il était dirigeant d'un parti au pouvoir de la scène politique française. grâce à ses activités liées au pouvoir, il a tisser des contacts avec des personnalités haut-placés.<br /> Thierry a été dirigeant d'une association pour l'égalité des droits, il a travaillé avec une multitude de personnalités politique du monde arabe et du Moyen-Orient aussi.<br /> Il a mis sur pied le réseau Voltaire, qui est un site d'information sur la politique internationale.<br />Thierry est aussi écrivain, vous pourrez trouver dans la section livres du site quelques références.</p>
@@ -88,7 +88,7 @@ const Geopolitique = () => {
                 <div className="row justify-content-center">
                     <div className="col-md-5 p-4">
                         <div class= {style.card} >
-                            <img src={PierreHillard} class="card-img-top rounded" alt="Image représentant une magnifique bibliothèque" />
+                            <img src={PierreHillard} class="card-img-top rounded" style={{height: "20rem" }} alt="Image représentant une magnifique bibliothèque" />
                             <div class="card-body">
                                 <h5 class="card-title mb-3 p-3">Dr en science politique, essayiste & conférencier</h5>
                                 <p class="card-text text-muted">Pierre Hillard est un spécialiste du "mondialisme", il développe cette thématique complexe avec beaucoup de pédagogie et de clareté, il est l'auteur de plusieurs livres, vous pourrez trouver dans la section livres du site quelques références.</p>

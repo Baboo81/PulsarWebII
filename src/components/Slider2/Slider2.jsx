@@ -174,6 +174,13 @@ const Slider2 = () => {
             title:"Enquête sur les Anges gardiens",
             txt: `Lorem, ipsum dolor sit amet`,
         },
+        //Santé:
+        //Krusi.E
+        
+
+
+
+
 
     ]
     return (

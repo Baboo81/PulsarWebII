@@ -12,7 +12,7 @@ const Psychologie = () => {
                     </div>
                     <div className="col-md-5 p-4">
                     <div class={style.card}>
-                            <img src={ArianeBilheran} class="card-img-top rounded" alt="Image représentant des déssins sur du sable" />
+                            <img src={ArianeBilheran} class="card-img-top rounded" style={{height: "20rem" }} alt="Image représentant des déssins sur du sable" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Normalienne, philosophe, psychologue clinicienne & docteur en psychopathologie</h5>
                                 <p class="card-text text-muted p-2">Ariane est l'auteur de plusieurs livres, dont les références seront reprisent sur la page livres.<br />Ariane anime des conférences, elle est experte en psychopathologie du pouvoir. Ariane décrit avec beaucoup de précision les mécanismes du totalitarisme, son livre intitulé: "psychopathologie du totalitarisme" est une merveille à lire.</p>

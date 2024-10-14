@@ -21,7 +21,7 @@ const Sante = () => { 
                     </div>
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
-                            <img src={EmaKrusi} class="card-img-top rounded" alt="Image représentant des déssins sur du sable" />
+                            <img src={EmaKrusi} class="card-img-top rounded" style={{height: "20rem" }} alt="Image représentant des déssins sur du sable" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Psychopraticienne & formatrice</h5>
                                 <p class="card-text text-muted p-2">Ema est connue pour ses travaux sur la naissance, le couple ainsi que ses prises de positions publiques sur l'autonomie, l'esprit critique, la manipulation de l'information et la psychologie.</p>
@@ -37,7 +37,7 @@ const Sante = () => { 
                     </div>
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
-                            <img src={NellyGrosjean} class="card-img-top rounded" alt="Image d'un champ de lavande" />
+                            <img src={NellyGrosjean} class="card-img-top rounded" style={{height: "20rem" }} alt="Image d'un champ de lavande" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3">Naturopathe, aromathérapeute & formatrice</h5>
                                 <p class="card-text text-muted p-2">Nelly est une pionnière dans le domaine de la santé au naturel, spécialisée en aromathérapie elle propose des formations ainsi que des cures détox et une multitude d'informations pour se maintenir en santé. Elle est l'auteur de plusieurs livres que vous pourrez trouver dans la section livre du site.</p>
@@ -51,7 +51,7 @@ const Sante = () => { 
                 <div className="row justify-content-center">
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
-                            <img src={JjCrevecoeur} class="card-img-top rounded" alt="Image représentant un papillon ainsi que des pierres sur du sable" />
+                            <img src={JjCrevecoeur} class="card-img-top rounded" style={{height: "20rem" }} alt="Image représentant un papillon ainsi que des pierres sur du sable" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Formateur & physicien</h5>
                                 <p class="card-text text-muted">Jean-Jacques est l'auteur de plusieurs livres très éclairants sur les jeux de pouvoir, la façon de prendre soin de ces besoins. IL donne des formations sur tout un panel de thématiques qui visent à vivre en harmonie avec soi-même ainsi qu'avec les autres, ses formations orientent l'élève vers l'autonomie, la souveraineté et la santé.</p>
@@ -63,7 +63,7 @@ const Sante = () => { 
                     </div>
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
-                            <img src={MarieSophieL} class="card-img-top rounded" alt="Image représentant des graines en tout genre" />
+                            <img src={MarieSophieL} class="card-img-top rounded" style={{height: "20rem" }} alt="Image représentant des graines en tout genre" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Naturopathe & Raw Chef</h5>
                                 <p class="card-text text-muted">Marie-Sophie va vous donner l'eau à la bouche en vous faisant découvrir la crusine, ses recettes sont épatantes et délicieuses.<br />Grâce à la crusine vous ferez un bien fou à votre corps et à votre âme.</p>
@@ -77,7 +77,7 @@ const Sante = () => { 
                 <div className="row justify-content-center">
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
-                            <img src={ThierryCasasnovas} class="card-img-top rounded" alt="Image représentant une sphère au milieu des bois" />
+                            <img src={ThierryCasasnovas} class="card-img-top rounded" style={{height: "20rem" }} alt="Image représentant une sphère au milieu des bois" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Conseiller en santé</h5>
                                 <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -89,7 +89,7 @@ const Sante = () => { 
                     </div>
                     <div className="col-md-5 p-4">
                         <div class={style.card}>
-                            <img src={RobinDesToits} class="card-img-top rounded" alt="Image représentant une antenne relais" />
+                            <img src={RobinDesToits} class="card-img-top rounded" style={{height: "20rem" }} alt="Image représentant une antenne relais" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Pollution élèctromagnétique liée aux réseaux téléphoniques</h5>
                                 <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
