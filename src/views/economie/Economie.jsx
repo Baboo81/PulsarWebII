@@ -35,9 +35,9 @@ const Economie = () => {
                             <img src={PierreJovanovic} class="card-img-top rounded" style={{height: "20rem" }} alt="Image représentant un livre ouvert en éventail" />
                             <div class="card-body p-2">
                                 <h5 class="card-title mb-3 p-3">Journaliste & essayiste</h5>
-                                <p class="card-text text-muted p-2">Pierre est un journaliste spécialisé dans le domaine économique, il décortique l'actualité économique avec beaucoup de clarté et de pertinence.<br />Il est l'auteur de plusieurs livres: 666, 777, Enquête sur les anges gardien, ... Vous pourrez trouver dans la section livresdu site quelques références. </p>
+                                <p class="card-text text-muted p-2">Pierre est un journaliste spécialisé dans le domaine économique, il décortique l'actualité économique avec beaucoup de clarté et de pertinence.<br />Il est l'auteur de plusieurs livres: 666, 777, Enquête sur les anges gardien, ... Vous pourrez trouver dans la section livres du site quelques références. </p>
                                 <div className="d-grid gap-2">
-                                    <a href="https://jovanovic.com/" class="btn btn-outline-primary">Aller vers le site officielle de Pierre</a>
+                                    <a href="https://jovanovic.com/" class="btn btn-outline-primary">Aller vers le site officiel de Pierre</a>
                                 </div>
                             </div>
                         </div>
