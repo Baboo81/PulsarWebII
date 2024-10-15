@@ -117,25 +117,25 @@ const Slider2 = () => {
             id: 11, 
             img: `${LivreMeyssan1}`,
             title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            txt: `Lorem, ipsum dolor sit amet consectetur.`,
         },
         {
             id: 12, 
             img: `${LivreMeyssan2}`,
             title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.`,
         },
         {
             id: 13, 
             img: `${LivreMeyssan3}`,
             title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.`,
         },
         {
             id: 14, 
             img: `${LivreMeyssan4}`,
             title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.`,
         },
         //Hindi.Y
         {
@@ -335,23 +335,25 @@ const Slider2 = () => {
       
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
-                        <article>
+                    <div className="col-md-9">
+                        <div className={style.sliderContent}>
                             <Carousel
                                 thumbWidth={120}
                                 showStatus={false}
                             >
                                 {data.map (slide => 
-                                    <div key={slide.id} >
+                               
+                                     <div key={slide.id} >
                                         <img src={slide.img} alt="" />
                                         <div className={style.overlay}>
                                             <h2 className={style.overlay_title}>{slide.title}</h2>
                                             <p className={style.overlay_text}>{slide.txt}</p>
                                         </div>
                                     </div>
+                                   
                                 )}
                             </Carousel>
-                        </article>
+                        </div>
                     </div>
                 </div>
             </div>

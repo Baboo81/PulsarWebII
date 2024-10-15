@@ -14,9 +14,9 @@ const Livres = () => {
                         <MainTitle title="Les références" />
                     </div>
                     <div className="col-md-7 p-5">
-                        <div className="p-5">
+                        <article className="p-5">
                             <Slider2 />
-                        </div>
+                        </article>
                     </div>
                 </div>
             </div>
