@@ -13,7 +13,7 @@ import Livres from './views/Livres/Livres';
 import Contact from './views/Contact/Contact';
 import Psychologie from './views/Psychologie/Psychologie';
 import Error404 from './views/Error404/Error404';
-import SearchBar from './components/SearchBar/SearchBar';
+
 
 
 
