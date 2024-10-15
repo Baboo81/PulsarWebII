@@ -54,280 +54,280 @@ const Slider2 = () => {
         {
             id: 1, 
             img: `${LivreAberkane1}`,
-            title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            theme: "Neuroscience",
+            parution: `2018`,
         },
         {
             id: 2, 
             img: `${LivreAberkane2}`,
-            title: "Title slider 2",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            theme: "Écologie",
+            parution: `2019`,
         },
         {
             id: 3, 
             img: `${LivreAberkane3}`,
-            title: "Title slider 3",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            theme: "Intelligence Artificielle",
+            parution: `2023`,
         },
         //Hillard.P
         {
             id: 4, 
             img: `${LivreHillard1}`,
-            title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            theme: "Géopolitique",
+            parution: `2020`,
         },
         {
             id: 5, 
             img: `${LivreHillard2}`,
-            title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            theme: "Géopolitique",
+            parution: `2019`,
         },
         {
             id: 6, 
             img: `${LivreHillard3}`,
-            title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            theme: "Géopolitique",
+            parution: `2022`,
         },
         {
             id: 7, 
             img: `${LivreHillard4}`,
-            title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            theme: "Géopolitique",
+            parution: `2023`,
         },
         {
             id: 8, 
             img: `${LivreHillard5}`,
-            title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            theme: "Géopolitique",
+            parution: `2021`,
         },
         {
             id: 9, 
             img: `${LivreHillard6}`,
-            title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            theme: "Géopolitique",
+            parution: `2020`,
         },
         {
             id: 10, 
             img: `${LivreHillard7}`,
-            title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum possimus nisi veritatis doloremque aut laboriosam reiciendis, iure ullam cumque est saepe minima sit quisquam voluptatem perspiciatis. Perspiciatis repellat maiores soluta, corrupti atque enim veritatis? Iste iusto reprehenderit nemo similique perferendis. Unde harum reiciendis dolor, neque ipsum facilis officiis aspernatur.`,
+            theme: "Géopolitique",
+            parution: `2010`,
         },
         //Meyssan.T
         {
             id: 11, 
             img: `${LivreMeyssan1}`,
-            title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur.`,
+            theme: "Géopolitique",
+            parution: `2017`,
         },
         {
             id: 12, 
             img: `${LivreMeyssan2}`,
-            title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.`,
+            theme: "Géopolitique",
+            parution: `2007`,
         },
         {
             id: 13, 
             img: `${LivreMeyssan3}`,
-            title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.`,
+            theme: "Géopolitique",
+            parution: `2002`,
         },
         {
             id: 14, 
             img: `${LivreMeyssan4}`,
-            title: "Title slider 1",
-            txt: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.`,
+            theme: "Géopolitique",
+            parution: `2002`,
         },
         //Hindi.Y
         {
             id: 15,
             img: `${LivreHindi1}`,
-            title:"Covidisme et méssianisme",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Géopolitique & religions",
+            parution: `2021`,
         },
         {
             id: 16,
             img: `${LivreHindi2}`,
-            title:"Les mythes fondateurs du choc des civilastions",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Géopolitique & religions",
+            parution: `2016`,
         },
         {
             id: 17,
             img: `${LivreHindi3}`,
-            title:"Occident et Islam",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Géopolitique & religions",
+            parution: `2020`,
         },
         {
             id: 18,
             img: `${LivreHindi4}`,
-            title:"La mystique de la laïcité",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Géopolitique & religions",
+            parution: `2017`,
         },
         //Économie:
         //Chaillot.P
         {
             id: 19,
             img: `${LivreChaillot1}`,
-            title:"Covid 19, ce que révèlent les chiffres officiels",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Économie",
+            parution: `2023`,
         },
         //Jovanovic.P
         {
             id: 20,
             img: `${LivreJovanovic1}`,
-            title:"666",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Économie, géopolitique & religion",
+            parution: `2014`,
         },
         {
             id: 21,
             img: `${LivreJovanovic2}`,
-            title:"777",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Économie, géopolitique & religion",
+            parution: `2009`,
         },
         {
             id: 22,
             img: `${LivreJovanovic3}`,
-            title:"888",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Économie, géopolitique & religion",
+            parution: `2024`,
         },
         {
             id: 23,
             img: `${LivreJovanovic4}`,
-            title:"Enquête sur les Anges gardiens",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Enquête sur les anges",
+            parution: `2001`,
         },
         //Santé:
         //Krusi.E
         {
             id: 24,
             img: `${LivreKrusi1}`,
-            title:"Faux départ, se réapproprier la naissance",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"La naissance",
+            parution: `2022`,
         },
         //Grosjean.N
         {
             id: 25,
             img: `${LivreGrosjean1}`,
-            title:"Les bienfaits de l'alimentation vivante",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Alimention crue",
+            parution: `2019`,
         },
         {
             id: 26,
             img: `${LivreGrosjean2}`,
-            title:"Le grand livre de l'aromathérapie",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Aromathérapie",
+            parution: `2021`,
         },
         {
             id: 27,
             img: `${LivreGrosjean3}`,
-            title:"Le grand livre de l'alimentation vivante",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Alimention crue",
+            parution: `2023`,
         },
         {
             id: 28,
             img: `${LivreGrosjean4}`,
-            title:"Bien se préparer à l'hiver",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Santé",
+            parution: `2018`,
         },
         //Crèvecoeur.J-J
         {
             id: 29,
             img: `${LivreCrevecoeur1}`,
-            title:"Relations & jeux de pouvoir",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Communication",
+            parution: `2000`,
         },
         {
             id: 30,
             img: `${LivreCrevecoeur2}`,
-            title:"Prenez soin de vous, n'attendez pas que les autres le fassent",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Santé",
+            parution: `2016`,
         },
         //Marie-Sophie.L
         {
             id: 31,
             img: `${LivreMarieSophie1}`,
-            title:"L'instant cru",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"L'alimention crue",
+            parution: `2015`,
         },
         {
             id: 32,
             img: `${LivreMarieSophie2}`,
-            title:"L'alimentation crue, une réponse aux dérives alimentaires",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"L'alimentation crue",
+            parution: `2018`,
         },
         //Thierry.C
         {
             id: 33,
             img: `${LivreCasasnovas1}`,
-            title:"La révolution du jeûne sec",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Santé",
+            parution: `2025`,
         },
         //Actualité:
         //Salim.L
         {
             id: 34,
             img: `${LivreLaïbi1}`,
-            title:"La fin du monde moderne",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Analyse du monde occidental",
+            parution: `2022`,
         },
         {
             id: 35,
             img: `${LivreLaïbi2}`,
-            title:"La faillite du monde moderne",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Analyse du monde occidental",
+            parution: `2012`,
         },
         {
             id: 36,
             img: `${LivreLaïbi3}`,
-            title:"Vitamine C liposomale et cancer",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Santé",
+            parution: `2014`,
         },
         {
             id: 37,
             img: `${LivreLaïbi4}`,
-            title:"Climate terror",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Analyse du monde occidental",
+            parution: `2024`,
         },
         //Jean-Dominique.M
         {
             id: 38,
             img: `${LivreMichel1}`,
-            title:"La fabrication du désastre",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Analyse de la crise du Covid 19",
+            parution: `2024`,
         },
         {
             id: 39,
             img: `${LivreMichel2}`,
-            title:"Covid: anatomie d'une crise sanitaire",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Analyse de la crise du Covid 19",
+            parution: `2020`,
         },
         //Pierre.B
         {
             id: 40,
             img: `${LivreBarnerias1}`,
-            title:"La casse du siècle",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Analyse de la crise du Covid 19",
+            parution: `2024`,
         },
         //Souveraineté:
         //Louis.F
         {
             id: 41,
             img: `${LivreFouché1}`,
-            title:"Traverser la peur l'Odyssée du réel",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Philosophie, souveraineté",
+            parution: `2023`,
         },
         {
             id: 42,
             img: `${LivreFouché2}`,
-            title:"Tous résistants dans l'âme",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Souveraineté",
+            parution: `2021`,
         },
         {
             id: 43,
             img: `${LivreFouché3}`,
-            title:"Agonie et renouveau du systéme de santé",
-            txt: `Lorem, ipsum dolor sit amet`,
+            theme:"Analyse du système de santé & souveraineté",
+            parution: `2022`,
         },
-
+        //Juan.B
 
 
     ]
@@ -335,8 +335,8 @@ const Slider2 = () => {
       
             <div className="container">
                 <div className="row">
-                    <div className="col-md-9">
-                        <div className={style.sliderContent}>
+                    <div className="col-md-12 justify-content-center">
+                        <div className="">
                             <Carousel
                                 thumbWidth={120}
                                 showStatus={false}
@@ -346,8 +346,8 @@ const Slider2 = () => {
                                      <div key={slide.id} >
                                         <img src={slide.img} alt="" />
                                         <div className={style.overlay}>
-                                            <h2 className={style.overlay_title}>{slide.title}</h2>
-                                            <p className={style.overlay_text}>{slide.txt}</p>
+                                            <h2 className={style.overlay_title}>{slide.theme}</h2>
+                                            <p className={style.overlay_text}>{slide.parution}</p>
                                         </div>
                                     </div>
                                    

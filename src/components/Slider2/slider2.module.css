@@ -15,20 +15,21 @@ article
 {
   background-color: var(--bleu);
   border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   height: 700px;
   width: 500px;
 }
 
 .sliderContent
 {
-    margin-left: 50px;
+    
 }
 
 .overlay
 {
     width: 80%;
     position: absolute;
-    top: 50%;
+    top: 85%;
     transform: translateY(-50%);
     left: 10%;
     padding: 0.4rem 1.5rem;
@@ -41,4 +42,11 @@ article
 {
     text-align: center;
     padding: 1%;
+    color: var(--blanc);
+    font-size: 1.3em;
+}
+
+.overlay_text
+{
+    text-align: center;
 }
