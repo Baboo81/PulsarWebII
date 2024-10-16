@@ -84,8 +84,6 @@ const Geopolitique = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="row justify-content-center">
                     <div className="col-md-5 p-4">
                         <div class= {style.card} >
                             <img src={PierreHillard} class="card-img-top rounded" style={{height: "20rem" }} alt="Image représentant une magnifique bibliothèque" />
@@ -112,6 +110,9 @@ const Geopolitique = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="row justify-content-center">
+                 
                 </div>
             </div>
         </section>
