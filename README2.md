@@ -7,7 +7,6 @@
 #Création d'un espace commentaire.
 #Explorer React Native.
 #SEO.
-#Ajouter une page : psychologie.jsx.
 #DB via MySQL.
 #Réorganiser la navigation.
 #Retirer le code mort.
