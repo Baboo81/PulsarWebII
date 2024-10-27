@@ -8,6 +8,5 @@
 #Explorer React Native.
 #SEO.
 #DB via MySQL.
-#Réorganiser la navigation.
 #Retirer le code mort.
 
